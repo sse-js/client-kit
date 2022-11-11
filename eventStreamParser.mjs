@@ -6,6 +6,8 @@ const CR = 0x000D;
 const SPACE = 0x0020;
 const COLON = 0x003A;
 
+export const RAW_DATA_SYMBOL = Symbol('RAW_DATA_SYMBOL');
+
 export default function eventStreamParser() {
   const emitter = new EventEmitter();
   
@@ -85,7 +87,15 @@ export default function eventStreamParser() {
           if (charCode === COLON) {
             lookNext(c => c.value.codePointAt(0) === SPACE);
             state = 'field_value';
-          } else field_name += char;
+          }
+          else if (isLF()) {
+            if (event[RAW_DATA_SYMBOL]) event[RAW_DATA_SYMBOL] += field_name;
+            else event[RAW_DATA_SYMBOL] = field_name;
+            field_name = '';
+            field_value = '';
+            state = 'event';
+          }
+          else field_name += char;
           break;
         case 'field_value':
           if (isLF()) {
@@ -98,6 +108,11 @@ export default function eventStreamParser() {
       }
     }
   });
+  
+  // I dunno if we should return last "incomplete" event
+  // if (Object.keys(event).length) {
+  //   emitter.emit('event', event);
+  // }
   
   return emitter;
 }
