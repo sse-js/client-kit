@@ -16,9 +16,7 @@ import eventStreamReader from './eventStreamReader.mjs';
 // const [response] = await once(request, 'response');
 // response.setEncoding('utf8');
 
-for await (const events of eventStreamReader(stream)) {
-  for (const event of events) {
-    console.log(event);
-  }
+for await (const event of eventStreamReader(stream)) {
+  console.log(event);
 }
 ```

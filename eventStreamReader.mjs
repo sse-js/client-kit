@@ -10,7 +10,7 @@ export default async function* eventStreamReader(stream) {
     }
 
     for await (const event of on(parser, 'event')) {
-      yield event;
+      yield * event;
     }
   }
 }
