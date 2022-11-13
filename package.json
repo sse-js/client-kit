@@ -11,5 +11,20 @@
   "volta": {
     "node": "16.18.1",
     "npm": "8.19.3"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "trailingComma": "all",
+    "bracketSpacing": false,
+    "arrowParens": "avoid",
+    "endOfLine": "lf"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
