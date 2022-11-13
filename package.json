@@ -1,6 +1,6 @@
 {
   "name": "eventstream",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.mjs",
   "scripts": {
