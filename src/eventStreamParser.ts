@@ -50,14 +50,14 @@ export function createParser(): (
     function next(): boolean | undefined {
       if (looks.length > 0) {
         value = looks.shift() as IteratorResult<string>;
-        return value.done;
+        return value.done ?? false;
       }
 
       value = cursor.next();
-      return value.done;
+      return value.done ?? false;
     }
 
-    while (!(next() ?? true)) {
+    while (!next()) {
       const char = value.value;
       const charCode = char.codePointAt(0);
 
