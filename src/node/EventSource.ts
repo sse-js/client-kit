@@ -1,7 +1,7 @@
 import * as http from 'node:http';
 import * as https from 'node:https';
-import {eventStreamParser} from '../eventStreamParser';
-import {BaseEventSource, EVENT_STREAM_HEADERS} from '../BaseEventSource';
+import {createEventStreamTransform} from '../eventStreamParser.js';
+import {BaseEventSource, EVENT_STREAM_HEADERS} from '../BaseEventSource.js';
 
 /**
  * polyfill of browser EventSource relying on Node EventTarget,
@@ -30,7 +30,7 @@ export class EventSource extends BaseEventSource {
         }
 
         this.signalOpen();
-        const stream = response.pipe(eventStreamParser());
+        const stream = response.pipe(createEventStreamTransform());
 
         this.initStreamAdaptor(stream, () => {
           this.#request.destroy();

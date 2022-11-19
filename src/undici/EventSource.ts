@@ -1,8 +1,8 @@
 import * as undici from 'undici';
 import type {Dispatcher} from 'undici';
 import type BodyReadable from 'undici/types/readable';
-import {BaseEventSource} from '../BaseEventSource';
-import {eventStreamParser} from '../eventStreamParser';
+import {BaseEventSource} from '../BaseEventSource.js';
+import {createEventStreamTransform} from '../eventStreamParser.js';
 
 export type EventSourceInitDict = {dispatcher?: Dispatcher} & Omit<
   Dispatcher.RequestOptions,
@@ -24,7 +24,7 @@ export class EventSource extends BaseEventSource {
       this.#responseBody = responseData.body;
 
       this.signalOpen();
-      const stream = responseData.body.pipe(eventStreamParser());
+      const stream = responseData.body.pipe(createEventStreamTransform());
 
       this.initStreamAdaptor(stream, () => responseData.body.destroy());
     });
