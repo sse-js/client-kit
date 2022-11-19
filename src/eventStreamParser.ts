@@ -1,4 +1,4 @@
-import {Transform} from 'node:stream';
+import { Transform } from 'node:stream';
 
 const BOM = 0xfeff;
 const LF = 0x000a;
@@ -21,20 +21,25 @@ export type IEvent = {
   comments?: string[];
 } & Record<string, string>; // record for any not standard event fields
 
-export function createParser() {
+export function createParser(): (
+  data: string,
+  callback: (event: IEvent) => void,
+) => void {
   let state = 'stream';
 
   let event: IEvent = {};
   let comment = '';
-  let field_name = '';
-  let field_value = '';
+  let fieldName = '';
+  let fieldValue = '';
 
   return (data: string, callback: (event: IEvent) => void) => {
     const cursor = data[Symbol.iterator]();
-    let value: IteratorResult<string> = {done: false, value: ''};
-    let looks: IteratorResult<string>[] = [];
+    let value: IteratorResult<string> = { done: false, value: '' };
+    const looks: Array<IteratorResult<string>> = [];
 
-    function lookNext(ignoreIfFn: (v: IteratorResult<string>) => boolean) {
+    function lookNext(
+      ignoreIfFn: (v: IteratorResult<string>) => boolean,
+    ): void {
       next();
 
       if (!ignoreIfFn(value)) {
@@ -42,8 +47,8 @@ export function createParser() {
       }
     }
 
-    function next() {
-      if (looks.length) {
+    function next(): boolean | undefined {
+      if (looks.length > 0) {
         value = looks.shift() as IteratorResult<string>;
         return value.done;
       }
@@ -52,11 +57,11 @@ export function createParser() {
       return value.done;
     }
 
-    while (!next()) {
+    while (!(next() ?? true)) {
       const char = value.value;
       const charCode = char.codePointAt(0);
 
-      function isLF() {
+      function isLF(): boolean {
         if (charCode === LF) return true;
         if (charCode === CR) {
           lookNext(c => c.value.codePointAt(0) === LF);
@@ -70,6 +75,7 @@ export function createParser() {
         case 'stream':
           state = 'event';
           if (charCode === BOM) break;
+        // tslint:disable-next-line: no-fallthrough --> intentional fallthrough
         case 'event':
           if (isLF()) {
             callback(event);
@@ -79,13 +85,13 @@ export function createParser() {
             comment = '';
           } else {
             state = 'field';
-            field_name = char;
-            field_value = '';
+            fieldName = char;
+            fieldValue = '';
           }
           break;
         case 'comment':
           if (isLF()) {
-            if (!event.comments) {
+            if (event.comments == null) {
               event.comments = [];
             }
             event.comments.push(comment);
@@ -100,21 +106,22 @@ export function createParser() {
             lookNext(c => c.value.codePointAt(0) === SPACE);
             state = 'field_value';
           } else if (isLF()) {
-            if (event[field_name]) event[field_name] += '\n';
-            else event[field_name] = '';
-            field_name = '';
-            field_value = '';
+            if (event[fieldName] !== undefined) event[fieldName] += '\n';
+            else event[fieldName] = '';
+            fieldName = '';
+            fieldValue = '';
             state = 'event';
-          } else field_name += char;
+          } else fieldName += char;
           break;
         case 'field_value':
           if (isLF()) {
-            if (event[field_name]) event[field_name] += '\n' + field_value;
-            else event[field_name] = field_value;
-            field_name = '';
-            field_value = '';
+            if (event[fieldName] !== undefined)
+              event[fieldName] += '\n' + fieldValue;
+            else event[fieldName] = fieldValue;
+            fieldName = '';
+            fieldValue = '';
             state = 'event';
-          } else field_value += char;
+          } else fieldValue += char;
       }
     }
   };

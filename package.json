@@ -13,7 +13,8 @@
   "scripts": {
     "start": "npm run build && node dist/test.js",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "peerDependencies": {
     "undici": "^5.12.0"
@@ -25,6 +26,14 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
     "prettier": "^2.7.1",
     "typescript": "^4.9.3",
     "undici": "^5.12.0"
@@ -41,8 +50,22 @@
     "singleQuote": true,
     "quoteProps": "as-needed",
     "trailingComma": "all",
-    "bracketSpacing": false,
     "arrowParens": "avoid",
     "endOfLine": "lf"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard-with-typescript",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "rules": {
+      "prettier/prettier": "error"
+    }
   }
 }
