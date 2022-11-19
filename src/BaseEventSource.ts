@@ -77,7 +77,7 @@ export abstract class BaseEventSource extends EventTarget {
     this.dispatchEvent(event);
   }
 
-  protected signalError(error: Error): void {
+  protected signalError = (error: Error): void => {
     const event = new Event('error');
     // @ts-expect-error
     event.error = error;
