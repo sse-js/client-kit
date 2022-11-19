@@ -12,9 +12,10 @@ import eventStreamReader from './eventStreamReader.mjs';
 //
 // import https from 'node:https';
 // import {once} from 'node:https';
-// const stream = https.request('url'); // from SSE api
+// const request = https.request('url'); // from SSE api
 // const [response] = await once(request, 'response');
 // response.setEncoding('utf8');
+// const stream = response;
 
 for await (const event of eventStreamReader(stream)) {
   console.log(event);
