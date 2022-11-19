@@ -6,8 +6,6 @@ const CR = 0x000d;
 const SPACE = 0x0020;
 const COLON = 0x003a;
 
-export const RAW_DATA_SYMBOL: unique symbol = Symbol('RAW_DATA_SYMBOL');
-
 export type IEvent = {
   /**
    * event field (name)
@@ -21,10 +19,6 @@ export type IEvent = {
    * comments in event
    */
   comments?: string[];
-  /**
-   * raw data when not using colon fieldname:fieldvalue separator
-   */
-  [RAW_DATA_SYMBOL]?: string;
 } & Record<string, string>; // record for any not standard event fields
 
 export type TransformParser = Transform & {
@@ -43,8 +37,8 @@ export function eventStreamParser(): TransformParser {
   let field_value = '';
 
   return new Transform({
-    readableObjectMode: true,
-    writableObjectMode: false,
+    writableObjectMode: false, // input buffer / string
+    readableObjectMode: true, // output IEvent
     transform(_data: Buffer, encoding, callback) {
       const data = _data.toString('utf8');
       const cursor = data[Symbol.iterator]();
@@ -117,8 +111,8 @@ export function eventStreamParser(): TransformParser {
               lookNext(c => c.value.codePointAt(0) === SPACE);
               state = 'field_value';
             } else if (isLF()) {
-              if (event[RAW_DATA_SYMBOL]) event[RAW_DATA_SYMBOL] += field_name;
-              else event[RAW_DATA_SYMBOL] = field_name;
+              if (event[field_name]) event[field_name] += '\n';
+              else event[field_name] = '';
               field_name = '';
               field_value = '';
               state = 'event';
@@ -126,7 +120,7 @@ export function eventStreamParser(): TransformParser {
             break;
           case 'field_value':
             if (isLF()) {
-              if (event[field_name]) event[field_name] += field_value;
+              if (event[field_name]) event[field_name] += '\n' + field_value;
               else event[field_name] = field_value;
               field_name = '';
               field_value = '';

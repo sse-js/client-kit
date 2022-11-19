@@ -2,7 +2,7 @@
 
 Support Parse / Read a `text/event-stream` stream compatible with `EventSource` Server Sent Events
 
-https://html.spec.whatwg.org/multipage/server-sent-events.html
+<https://html.spec.whatwg.org/multipage/server-sent-events.html>
 
 ```js
 import eventStreamReader from './eventStreamReader.js';
