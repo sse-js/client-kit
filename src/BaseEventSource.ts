@@ -26,7 +26,7 @@ export abstract class BaseEventSource extends EventTarget {
   public static readonly OPEN = ReadyState.OPEN;
   public static readonly CLOSED = ReadyState.CLOSED;
   protected _readyState: number | undefined;
-  public get readyState(): void {
+  public get readyState(): number | undefined {
     return this._readyState;
   }
 
