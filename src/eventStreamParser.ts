@@ -47,7 +47,7 @@ export function createParser(): (
       }
     }
 
-    function next(): boolean | undefined {
+    function next(): boolean {
       if (looks.length > 0) {
         value = looks.shift() as IteratorResult<string>;
         return value.done ?? false;
