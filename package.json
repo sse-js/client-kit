@@ -65,7 +65,14 @@
       "project": "./tsconfig.json"
     },
     "rules": {
-      "prettier/prettier": "error"
+      "prettier/prettier": "error",
+      "@typescript-eslint/array-type": [
+        "error",
+        {
+          "default": "array",
+          "readonly": "array"
+        }
+      ]
     }
   }
 }

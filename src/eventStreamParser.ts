@@ -35,7 +35,7 @@ export function createParser(): (
   return (data: string, callback: (event: IEvent) => void) => {
     const cursor = data[Symbol.iterator]();
     let value: IteratorResult<string> = { done: false, value: '' };
-    const looks: Array<IteratorResult<string>> = [];
+    const looks: IteratorResult<string>[] = [];
 
     function lookNext(
       ignoreIfFn: (v: IteratorResult<string>) => boolean,

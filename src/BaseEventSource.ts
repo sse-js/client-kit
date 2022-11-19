@@ -83,7 +83,7 @@ export abstract class BaseEventSource extends EventTarget {
     event.error = error;
     this._readyState = ReadyState.CLOSED;
     this.dispatchEvent(event);
-  }
+  };
 
   protected signalMessage = (_event: IEvent): void => {
     const message = new Event('message');
