@@ -5,7 +5,7 @@ Support Parse / Read a `text/event-stream` stream compatible with `EventSource` 
 https://html.spec.whatwg.org/multipage/server-sent-events.html
 
 ```js
-import eventStreamReader from './eventStreamReader.mjs';
+import eventStreamReader from './eventStreamReader.js';
 
 // create stream variable
 // const stream = createReadStream('./test.txt', {encoding: 'utf8'}); // from file

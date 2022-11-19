@@ -6,26 +6,52 @@ const CR = 0x000d;
 const SPACE = 0x0020;
 const COLON = 0x003a;
 
-export const RAW_DATA_SYMBOL = Symbol('RAW_DATA_SYMBOL');
+export const RAW_DATA_SYMBOL: unique symbol = Symbol('RAW_DATA_SYMBOL');
 
-export default function eventStreamParser() {
+export type IEvent = {
+  /**
+   * event field (name)
+   */
+  event?: string;
+  /**
+   * data field
+   */
+  data?: string;
+  /**
+   * comments in event
+   */
+  comments?: string[];
+  /**
+   * raw data when not using colon fieldname:fieldvalue separator
+   */
+  [RAW_DATA_SYMBOL]?: string;
+} & Record<string, string>; // record for any not standard event fields
+
+export type TransformParser = Transform & {
+  on: (eventName: 'data', callback: (event: IEvent) => void) => Transform;
+};
+
+/**
+ * @return Transform stream which output objects on data events
+ */
+export function eventStreamParser(): TransformParser {
   let state = 'stream';
 
-  let event = {};
+  let event: IEvent = {};
   let comment = '';
   let field_name = '';
   let field_value = '';
 
-  const transformer = new Transform({
+  return new Transform({
     readableObjectMode: true,
     writableObjectMode: false,
-    transform(data, encoding, callback) {
-      data = data.toString('utf8');
+    transform(_data: Buffer, encoding, callback) {
+      const data = _data.toString('utf8');
       const cursor = data[Symbol.iterator]();
-      let value;
-      let looks = [];
+      let value: IteratorResult<string> = {done: false, value: ''};
+      let looks: IteratorResult<string>[] = [];
 
-      function lookNext(ignoreIfFn) {
+      function lookNext(ignoreIfFn: (v: IteratorResult<string>) => boolean) {
         next();
 
         if (!ignoreIfFn(value)) {
@@ -35,7 +61,7 @@ export default function eventStreamParser() {
 
       function next() {
         if (looks.length) {
-          value = looks.shift();
+          value = looks.shift() as IteratorResult<string>;
           return value.done;
         }
 
@@ -112,6 +138,4 @@ export default function eventStreamParser() {
       callback();
     },
   });
-
-  return transformer;
 }
