@@ -8,11 +8,11 @@
   "main": "dist/index.js",
   "exports": {
     ".": "./dist/index.js",
+    "./Parser": "./dist/eventStreamParser.js",
+    "./Reader": "./dist/eventStreamReader.js",
     "./BaseEventSource": "./dist/BaseEventSource.js",
     "./EventSourceNode": "./dist/node/EventSource.js",
-    "./EventSourceUndici": "./dist/undici/EventSource.js",
-    "./Parser": "./dist/eventStreamParser.js",
-    "./Reader": "./dist/eventStreamReader.js"
+    "./EventSourceUndici": "./dist/undici/EventSource.js"
   },
   "repository": {
     "type": "git",

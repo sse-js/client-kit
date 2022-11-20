@@ -1,9 +1,9 @@
-export * from './eventStreamReader.js';
-export * from './eventStreamParser.js';
-export * from './BaseEventSource.js';
-export * from './node/EventSource.js';
+export * as Parser from './eventStreamParser.js';
+export * as Reader from './eventStreamReader.js';
 
-export {
-  EventSource as EventSourceUndici,
-  EventSourceInitDict as EventSourceInitDictUndici,
-} from './undici/EventSource.js';
+export * as BaseEventSource from './BaseEventSource.js';
+export * as Node from './node/EventSource.js';
+export * as Undici from './undici/EventSource.js';
+
+export { eventStreamReader } from './eventStreamReader.js';
+export { EventSource } from './node/EventSource';
