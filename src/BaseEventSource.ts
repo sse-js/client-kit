@@ -72,12 +72,16 @@ export abstract class BaseEventSource extends EventTarget {
 
   /**
    * MUST be implemented by child class
+   *
+   * @example
+   * ```ts
    * protected cleaning() {
    *   // clean resources
    *   // ex
    *   this.#request?.destroy();
    *   this.#request = undefined;
    * }
+   * ```
    */
   protected abstract cleaning(): void;
 
