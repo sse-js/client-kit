@@ -1,5 +1,6 @@
 export * from './eventStreamReader.js';
 export * from './eventStreamParser.js';
+export * from './BaseEventSource.js';
 export * from './node/EventSource.js';
 
 export {
