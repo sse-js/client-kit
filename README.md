@@ -11,6 +11,15 @@ and `EventSource` api.
 
 <https://html.spec.whatwg.org/multipage/server-sent-events.html>
 
+- [How to Install](#how-to-install)
+- [How to Use](#how-to-use)
+    - [EventSource (node native)](#eventsource-node-native)
+    - [EventSource (undici)](#eventsource-undici)
+    - [Async Generator](#async-generator)
+    - [Stream API](#stream-api)
+    - [Callback API](#callback-api)
+- [How to Extend](#how-to-extend)
+
 ## How to Install
 
 TOFIX when package name is reserved
@@ -228,7 +237,6 @@ for await (const line of file.readLines()) {
   });
 }
 ```
-
 
 ## How to Extend
 
