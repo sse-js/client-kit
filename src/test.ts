@@ -1,5 +1,5 @@
 import { createReadStream } from 'node:fs';
-import eventStreamReader from './eventStreamReader.js';
+import { eventStreamReader } from './eventStreamReader.js';
 
 const stream = createReadStream('./test.txt', { encoding: 'utf8' });
 

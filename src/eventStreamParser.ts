@@ -6,6 +6,9 @@ const CR = 0x000d;
 const SPACE = 0x0020;
 const COLON = 0x003a;
 
+/**
+ * Event type push by `createParser`
+ */
 export type IEvent = {
   /**
    * event field (name)
@@ -21,6 +24,30 @@ export type IEvent = {
   comments?: string[];
 } & Record<string, string>; // record for any not standard event fields
 
+/**
+ * Build a callable parser (agnostic usage) manage his internal state for successive chunks call.
+ *
+ * call it with data chunk string, will call back for each parsed event as IEvent object
+ *
+ * @return a function which take a chunk string as first argument and a callback as second argument
+ *
+ * @example
+ * ```ts
+ *   const parser = createParser();
+ *
+ *   return new Transform({
+ *     writableObjectMode: false,
+ *     readableObjectMode: true,
+ *     transform(_data: Buffer, encoding, callback) {
+ *       const data = _data.toString('utf8');
+ *
+ *       parser(data, event => this.push(event));
+ *
+ *       callback();
+ *     },
+ *   });
+ * ```
+ */
 export function createParser(): (
   data: string,
   callback: (event: IEvent) => void,
@@ -132,7 +159,17 @@ export type TransformParser = Transform & {
 };
 
 /**
+ * create a parser and return a Transform stream, push event on parser callback
+ *
  * @return Transform stream which output objects on data events
+ *
+ * @example
+ * ```ts
+ * // const readable = // some readable stream with text/event-stream format
+ * const transformer = createEventStreamTransform();
+ *
+ * transformer.on('data', event => console.log(event));
+ * ```
  */
 export function createEventStreamTransform(): TransformParser {
   const parser = createParser();
@@ -140,7 +177,7 @@ export function createEventStreamTransform(): TransformParser {
   return new Transform({
     writableObjectMode: false, // input buffer / string
     readableObjectMode: true, // output IEvent
-    transform(_data: Buffer, encoding, callback) {
+    transform(this: Transform, _data: Buffer, encoding, callback) {
       const data = _data.toString('utf8');
 
       parser(data, event => this.push(event));
