@@ -11,8 +11,8 @@
     "./Parser": "./dist/eventStreamParser.js",
     "./Reader": "./dist/eventStreamReader.js",
     "./BaseEventSource": "./dist/BaseEventSource.js",
-    "./EventSourceNode": "./dist/node/EventSource.js",
-    "./EventSourceUndici": "./dist/undici/EventSource.js"
+    "./Node": "./dist/node/EventSource.js",
+    "./Undici": "./dist/undici/EventSource.js"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "prettier": "^2.7.1",
+    "typedoc": "^0.23.21",
     "typescript": "^4.9.3",
     "undici": "^5.12.0"
   },
