@@ -21,22 +21,24 @@ export const EVENT_STREAM_HEADERS = Object.freeze({
  * - constructor(url, eventSourceInitDict) :
  *   - take url as first argument
  *   - an eventSourceInitDict as second argument, for request options
- *   - merge `EVENT_STREAM_HEADERS` with `eventSourceInitDict.headers`
+ *   - merge `EVENT_STREAM_HEADERS` {@link EVENT_STREAM_HEADERS} in `eventSourceInitDict.headers`
  *   - run the request
  *   - on response :
  *     - store resources to clean later
- *     - use `this.isValidResponse(response)`
- *       - if not valid call `this.handleInvalidResponse()` and cleanup opened resources (request / response)
+ *     - use {@link BaseEventSource.isValidResponse}
+ *       - if not valid call {@link BaseEventSource.handleInvalidResponse} and cleanup opened resources (request / response)
  *       - if valid
- *         - `this.signalOpen()`
+ *         - {@link BaseEventSource.signalOpen}
  *         - Adapt the response to the EventSource api
  *         - Your response body should be a stream (lazyness fetching / parsing / transform)
- *         - `const stream = response.pipe(createEventStreamTransform())`
- *         - `this.initStreamAdaptor(stream, this.cleaning)`
+ *         - `const stream = response.pipe(createEventStreamTransform())` {@link Parser:createEventStreamTransform}
+ *         - `this.initStreamAdaptor(stream, this.cleaning)` {@link BaseEventSource.initStreamAdaptor}
  * - cleaning()
  *   clean resources stored and unassign them
  *
  * @see https://html.spec.whatwg.org/multipage/server-sent-events.html#the-eventsource-interface for the spec
+ *
+ * Note for reader on typedoc, activate Protected member visibility, by default only Inherited is selected
  */
 export abstract class BaseEventSource extends EventTarget {
   //

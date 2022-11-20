@@ -7,7 +7,7 @@ const SPACE = 0x0020;
 const COLON = 0x003a;
 
 /**
- * Event type push by `createParser`
+ * Event type push by {@link createParser}
  */
 export type IEvent = {
   /**
@@ -27,7 +27,7 @@ export type IEvent = {
 /**
  * Build a callable parser (agnostic usage) manage his internal state for successive chunks call.
  *
- * call it with data chunk string, will call back for each parsed event as IEvent object
+ * call it with data chunk string, will call back for each parsed event as {@link IEvent} object
  *
  * @return a function which take a chunk string as first argument and a callback as second argument
  *
@@ -155,11 +155,11 @@ export function createParser(): (
 }
 
 export type TransformParser = Transform & {
-  on: (eventName: 'data', callback: (event: IEvent) => void) => Transform;
+  on: (eventName: 'data', callback: (event: IEvent) => void) => TransformParser;
 };
 
 /**
- * create a parser and return a Transform stream, push event on parser callback
+ * create a parser with {@link createParser} and return a Transform stream, push event on parser callback
  *
  * @return Transform stream which output objects on data events
  *

@@ -228,3 +228,20 @@ for await (const line of file.readLines()) {
   });
 }
 ```
+
+
+## How to Extend
+
+This package give an implementation of EventSource based on nodejs http client, another based on Undici.
+Theses 2 implementation have in common `BaseEventSource`.
+
+So if you want have `EventSource` implementation on top of another http client, you can extend `BaseEventSource`.
+
+[BaseEventSource.ts](./src/BaseEventSource.ts)
+
+<script type="application/javascript">
+    // javascript is executed on doc page rendering the readme
+    // javascript is not executed on readme rendering in repo
+    document.querySelector('a[href="./src/BaseEventSource.ts"]')?.remove();
+    document.write(`<a href="./classes/BaseEventSource.BaseEventSource.html">Find the implementation guide here</a>`);
+</script>

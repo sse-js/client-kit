@@ -17,7 +17,7 @@
 					"fileName": "src/index.ts",
 					"line": 8,
 					"character": 9,
-					"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/index.ts#L8"
+					"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/index.ts#L8"
 				}
 			],
 			"target": 107
@@ -33,7 +33,7 @@
 					"fileName": "src/index.ts",
 					"line": 9,
 					"character": 9,
-					"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/index.ts#L9"
+					"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/index.ts#L9"
 				}
 			],
 			"target": 29
@@ -63,7 +63,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 7,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L7"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L7"
 								}
 							],
 							"type": {
@@ -82,7 +82,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 5,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L5"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L5"
 								}
 							],
 							"type": {
@@ -101,7 +101,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 6,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L6"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L6"
 								}
 							],
 							"type": {
@@ -125,7 +125,7 @@
 							"fileName": "src/BaseEventSource.ts",
 							"line": 4,
 							"character": 12,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L4"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L4"
 						}
 					]
 				},
@@ -149,7 +149,17 @@
 							},
 							{
 								"kind": "text",
-								"text": " with "
+								"text": " "
+							},
+							{
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "EVENT_STREAM_HEADERS",
+								"target": 37
+							},
+							{
+								"kind": "text",
+								"text": " in "
 							},
 							{
 								"kind": "code",
@@ -160,24 +170,30 @@
 								"text": "\n  - run the request\n  - on response :\n    - store resources to clean later\n    - use "
 							},
 							{
-								"kind": "code",
-								"text": "`this.isValidResponse(response)`"
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "isValidResponse",
+								"target": 68
 							},
 							{
 								"kind": "text",
 								"text": "\n      - if not valid call "
 							},
 							{
-								"kind": "code",
-								"text": "`this.handleInvalidResponse()`"
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "handleInvalidResponse",
+								"target": 74
 							},
 							{
 								"kind": "text",
 								"text": " and cleanup opened resources (request / response)\n      - if valid\n        - "
 							},
 							{
-								"kind": "code",
-								"text": "`this.signalOpen()`"
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "signalOpen",
+								"target": 76
 							},
 							{
 								"kind": "text",
@@ -189,11 +205,31 @@
 							},
 							{
 								"kind": "text",
+								"text": " "
+							},
+							{
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": ":createEventStreamTransform",
+								"target": 1
+							},
+							{
+								"kind": "text",
 								"text": "\n        - "
 							},
 							{
 								"kind": "code",
 								"text": "`this.initStreamAdaptor(stream, this.cleaning)`"
+							},
+							{
+								"kind": "text",
+								"text": " "
+							},
+							{
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "initStreamAdaptor",
+								"target": 87
 							},
 							{
 								"kind": "text",
@@ -206,7 +242,7 @@
 								"content": [
 									{
 										"kind": "text",
-										"text": "https://html.spec.whatwg.org/multipage/server-sent-events.html#the-eventsource-interface for the spec"
+										"text": "https://html.spec.whatwg.org/multipage/server-sent-events.html#the-eventsource-interface for the spec\n\nNote for reader on typedoc, activate Protected member visibility, by default only Inherited is selected"
 									}
 								]
 							}
@@ -224,9 +260,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 46,
+									"line": 48,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L46"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L48"
 								}
 							],
 							"signatures": [
@@ -276,9 +312,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 58,
+									"line": 60,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L58"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L60"
 								}
 							],
 							"type": {
@@ -306,9 +342,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 66,
+									"line": 68,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L66"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L68"
 								}
 							],
 							"type": {
@@ -329,9 +365,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 66,
+													"line": 68,
 													"character": 19,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L66"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L68"
 												}
 											],
 											"signatures": [
@@ -378,9 +414,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 65,
+									"line": 67,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L65"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L67"
 								}
 							],
 							"type": {
@@ -401,9 +437,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 65,
+													"line": 67,
 													"character": 21,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L65"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L67"
 												}
 											],
 											"signatures": [
@@ -450,9 +486,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 64,
+									"line": 66,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L64"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L66"
 								}
 							],
 							"type": {
@@ -473,9 +509,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 64,
+													"line": 66,
 													"character": 18,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L64"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L66"
 												}
 											],
 											"signatures": [
@@ -523,9 +559,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 52,
+									"line": 54,
 									"character": 18,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L52"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L54"
 								}
 							],
 							"type": {
@@ -546,9 +582,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 57,
+									"line": 59,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L57"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L59"
 								}
 							],
 							"type": {
@@ -571,9 +607,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 55,
+									"line": 57,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L55"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L57"
 								}
 							],
 							"type": {
@@ -596,9 +632,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 56,
+									"line": 58,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L56"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L58"
 								}
 							],
 							"type": {
@@ -619,9 +655,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 59,
+									"line": 61,
 									"character": 13,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L59"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L61"
 								}
 							],
 							"getSignature": {
@@ -882,9 +918,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 86,
+									"line": 88,
 									"character": 21,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L86"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L88"
 								}
 							],
 							"signatures": [
@@ -931,9 +967,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 68,
+									"line": 70,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L68"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L70"
 								}
 							],
 							"signatures": [
@@ -1025,9 +1061,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 111,
+									"line": 113,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L111"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L113"
 								}
 							],
 							"signatures": [
@@ -1065,9 +1101,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 180,
+									"line": 182,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L180"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L182"
 								}
 							],
 							"signatures": [
@@ -1117,9 +1153,9 @@
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 182,
+															"line": 184,
 															"character": 20,
-															"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L182"
+															"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L184"
 														}
 													],
 													"signatures": [
@@ -1157,9 +1193,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 97,
+									"line": 99,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L97"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L99"
 								}
 							],
 							"signatures": [
@@ -1206,9 +1242,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 99,
+																	"line": 101,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L99"
+																	"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L101"
 																}
 															],
 															"type": {
@@ -1229,9 +1265,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 98,
+																	"line": 100,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L98"
+																	"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L100"
 																}
 															],
 															"type": {
@@ -1252,9 +1288,9 @@
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 97,
+															"line": 99,
 															"character": 38,
-															"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L97"
+															"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L99"
 														}
 													]
 												}
@@ -1392,9 +1428,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 138,
+									"line": 140,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L138"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L140"
 								}
 							],
 							"signatures": [
@@ -1445,9 +1481,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 164,
+									"line": 166,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L164"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L166"
 								}
 							],
 							"signatures": [
@@ -1497,9 +1533,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 151,
+									"line": 153,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L151"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L153"
 								}
 							],
 							"signatures": [
@@ -1549,9 +1585,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 128,
+									"line": 130,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L128"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L130"
 								}
 							],
 							"signatures": [
@@ -1626,9 +1662,9 @@
 					"sources": [
 						{
 							"fileName": "src/BaseEventSource.ts",
-							"line": 41,
+							"line": 43,
 							"character": 22,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L41"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L43"
 						}
 					],
 					"extendedTypes": [
@@ -1665,7 +1701,7 @@
 							"fileName": "src/BaseEventSource.ts",
 							"line": 10,
 							"character": 13,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L10"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L10"
 						}
 					],
 					"type": {
@@ -1691,7 +1727,7 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 12,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L12"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L12"
 												}
 											],
 											"type": {
@@ -1711,7 +1747,7 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 11,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L11"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L11"
 												}
 											],
 											"type": {
@@ -1735,7 +1771,7 @@
 											"fileName": "src/BaseEventSource.ts",
 											"line": 10,
 											"character": 50,
-											"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L10"
+											"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L10"
 										}
 									]
 								}
@@ -1773,7 +1809,7 @@
 					"fileName": "src/BaseEventSource.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L1"
+					"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L1"
 				}
 			]
 		},
@@ -1810,7 +1846,7 @@
 									"fileName": "src/node/EventSource.ts",
 									"line": 12,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/node/EventSource.ts#L12"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/node/EventSource.ts#L12"
 								}
 							],
 							"signatures": [
@@ -1879,7 +1915,7 @@
 									"fileName": "src/node/EventSource.ts",
 									"line": 41,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/node/EventSource.ts#L41"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/node/EventSource.ts#L41"
 								}
 							],
 							"type": {
@@ -1903,7 +1939,7 @@
 									"fileName": "src/node/EventSource.ts",
 									"line": 42,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/node/EventSource.ts#L42"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/node/EventSource.ts#L42"
 								}
 							],
 							"type": {
@@ -1924,9 +1960,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 58,
+									"line": 60,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L58"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L60"
 								}
 							],
 							"type": {
@@ -1959,9 +1995,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 66,
+									"line": 68,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L66"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L68"
 								}
 							],
 							"type": {
@@ -1982,9 +2018,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 66,
+													"line": 68,
 													"character": 19,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L66"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L68"
 												}
 											],
 											"signatures": [
@@ -2036,9 +2072,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 65,
+									"line": 67,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L65"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L67"
 								}
 							],
 							"type": {
@@ -2059,9 +2095,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 65,
+													"line": 67,
 													"character": 21,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L65"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L67"
 												}
 											],
 											"signatures": [
@@ -2113,9 +2149,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 64,
+									"line": 66,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L64"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L66"
 								}
 							],
 							"type": {
@@ -2136,9 +2172,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 64,
+													"line": 66,
 													"character": 18,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L64"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L66"
 												}
 											],
 											"signatures": [
@@ -2191,9 +2227,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 52,
+									"line": 54,
 									"character": 18,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L52"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L54"
 								}
 							],
 							"type": {
@@ -2219,9 +2255,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 57,
+									"line": 59,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L57"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L59"
 								}
 							],
 							"type": {
@@ -2249,9 +2285,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 55,
+									"line": 57,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L55"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L57"
 								}
 							],
 							"type": {
@@ -2279,9 +2315,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 56,
+									"line": 58,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L56"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L58"
 								}
 							],
 							"type": {
@@ -2307,9 +2343,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 59,
+									"line": 61,
 									"character": 13,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L59"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L61"
 								}
 							],
 							"getSignature": {
@@ -2583,7 +2619,7 @@
 									"fileName": "src/node/EventSource.ts",
 									"line": 44,
 									"character": 21,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/node/EventSource.ts#L44"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/node/EventSource.ts#L44"
 								}
 							],
 							"signatures": [
@@ -2640,9 +2676,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 68,
+									"line": 70,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L68"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L70"
 								}
 							],
 							"signatures": [
@@ -2746,9 +2782,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 111,
+									"line": 113,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L111"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L113"
 								}
 							],
 							"signatures": [
@@ -2796,9 +2832,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 180,
+									"line": 182,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L180"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L182"
 								}
 							],
 							"signatures": [
@@ -2848,9 +2884,9 @@
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 182,
+															"line": 184,
 															"character": 20,
-															"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L182"
+															"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L184"
 														}
 													],
 													"signatures": [
@@ -2898,9 +2934,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 97,
+									"line": 99,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L97"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L99"
 								}
 							],
 							"signatures": [
@@ -2947,9 +2983,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 99,
+																	"line": 101,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L99"
+																	"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L101"
 																}
 															],
 															"type": {
@@ -2970,9 +3006,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 98,
+																	"line": 100,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L98"
+																	"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L100"
 																}
 															],
 															"type": {
@@ -2993,9 +3029,9 @@
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 97,
+															"line": 99,
 															"character": 38,
-															"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L97"
+															"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L99"
 														}
 													]
 												}
@@ -3145,9 +3181,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 138,
+									"line": 140,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L138"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L140"
 								}
 							],
 							"signatures": [
@@ -3208,9 +3244,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 164,
+									"line": 166,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L164"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L166"
 								}
 							],
 							"signatures": [
@@ -3270,9 +3306,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 151,
+									"line": 153,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L151"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L153"
 								}
 							],
 							"signatures": [
@@ -3332,9 +3368,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 128,
+									"line": 130,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L128"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L130"
 								}
 							],
 							"signatures": [
@@ -3423,7 +3459,7 @@
 							"fileName": "src/node/EventSource.ts",
 							"line": 11,
 							"character": 13,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/node/EventSource.ts#L11"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/node/EventSource.ts#L11"
 						}
 					],
 					"extendedTypes": [
@@ -3448,7 +3484,7 @@
 					"fileName": "src/node/EventSource.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/node/EventSource.ts#L1"
+					"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/node/EventSource.ts#L1"
 				}
 			]
 		},
@@ -3472,8 +3508,10 @@
 								"text": "Event type push by "
 							},
 							{
-								"kind": "code",
-								"text": "`createParser`"
+								"kind": "inline-tag",
+								"tag": "@link",
+								"text": "createParser",
+								"target": 2
 							}
 						]
 					},
@@ -3482,7 +3520,7 @@
 							"fileName": "src/eventStreamParser.ts",
 							"line": 12,
 							"character": 12,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L12"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L12"
 						}
 					],
 					"type": {
@@ -3518,7 +3556,7 @@
 													"fileName": "src/eventStreamParser.ts",
 													"line": 24,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L24"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L24"
 												}
 											],
 											"type": {
@@ -3550,7 +3588,7 @@
 													"fileName": "src/eventStreamParser.ts",
 													"line": 20,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L20"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L20"
 												}
 											],
 											"type": {
@@ -3579,7 +3617,7 @@
 													"fileName": "src/eventStreamParser.ts",
 													"line": 16,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L16"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L16"
 												}
 											],
 											"type": {
@@ -3603,7 +3641,7 @@
 											"fileName": "src/eventStreamParser.ts",
 											"line": 12,
 											"character": 21,
-											"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L12"
+											"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L12"
 										}
 									]
 								}
@@ -3638,7 +3676,7 @@
 							"fileName": "src/eventStreamParser.ts",
 							"line": 157,
 							"character": 12,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L157"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L157"
 						}
 					],
 					"type": {
@@ -3670,7 +3708,7 @@
 													"fileName": "src/eventStreamParser.ts",
 													"line": 158,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L158"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L158"
 												}
 											],
 											"type": {
@@ -3686,7 +3724,7 @@
 															"fileName": "src/eventStreamParser.ts",
 															"line": 158,
 															"character": 6,
-															"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L158"
+															"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L158"
 														}
 													],
 													"signatures": [
@@ -3727,7 +3765,7 @@
 																					"fileName": "src/eventStreamParser.ts",
 																					"line": 158,
 																					"character": 36,
-																					"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L158"
+																					"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L158"
 																				}
 																			],
 																			"signatures": [
@@ -3763,9 +3801,8 @@
 															],
 															"type": {
 																"type": "reference",
-																"name": "Transform",
-																"qualifiedName": "internal.Transform",
-																"package": "@types/node"
+																"id": 18,
+																"name": "TransformParser"
 															}
 														}
 													]
@@ -3786,7 +3823,7 @@
 											"fileName": "src/eventStreamParser.ts",
 											"line": 157,
 											"character": 42,
-											"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L157"
+											"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L157"
 										}
 									]
 								}
@@ -3805,7 +3842,7 @@
 							"fileName": "src/eventStreamParser.ts",
 							"line": 174,
 							"character": 16,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L174"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L174"
 						}
 					],
 					"signatures": [
@@ -3819,7 +3856,17 @@
 								"summary": [
 									{
 										"kind": "text",
-										"text": "create a parser and return a Transform stream, push event on parser callback"
+										"text": "create a parser with "
+									},
+									{
+										"kind": "inline-tag",
+										"tag": "@link",
+										"text": "createParser",
+										"target": 2
+									},
+									{
+										"kind": "text",
+										"text": " and return a Transform stream, push event on parser callback"
 									}
 								],
 								"blockTags": [
@@ -3862,7 +3909,7 @@
 							"fileName": "src/eventStreamParser.ts",
 							"line": 51,
 							"character": 16,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L51"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L51"
 						}
 					],
 					"signatures": [
@@ -3876,7 +3923,17 @@
 								"summary": [
 									{
 										"kind": "text",
-										"text": "Build a callable parser (agnostic usage) manage his internal state for successive chunks call.\n\ncall it with data chunk string, will call back for each parsed event as IEvent object"
+										"text": "Build a callable parser (agnostic usage) manage his internal state for successive chunks call.\n\ncall it with data chunk string, will call back for each parsed event as "
+									},
+									{
+										"kind": "inline-tag",
+										"tag": "@link",
+										"text": "IEvent",
+										"target": 13
+									},
+									{
+										"kind": "text",
+										"text": " object"
 									}
 								],
 								"blockTags": [
@@ -3913,7 +3970,7 @@
 											"fileName": "src/eventStreamParser.ts",
 											"line": 51,
 											"character": 32,
-											"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L51"
+											"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L51"
 										}
 									],
 									"signatures": [
@@ -3954,7 +4011,7 @@
 																	"fileName": "src/eventStreamParser.ts",
 																	"line": 53,
 																	"character": 12,
-																	"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L53"
+																	"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L53"
 																}
 															],
 															"signatures": [
@@ -4021,7 +4078,7 @@
 					"fileName": "src/eventStreamParser.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamParser.ts#L1"
+					"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamParser.ts#L1"
 				}
 			]
 		},
@@ -4043,7 +4100,7 @@
 							"fileName": "src/eventStreamReader.ts",
 							"line": 25,
 							"character": 23,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamReader.ts#L25"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamReader.ts#L25"
 						}
 					],
 					"signatures": [
@@ -4060,8 +4117,10 @@
 										"text": "return an AsyncGenerator on event 'data' of string passed in argument\nrely on "
 									},
 									{
-										"kind": "code",
-										"text": "`createEventStreamTransform`"
+										"kind": "inline-tag",
+										"tag": "@link",
+										"text": ":createEventStreamTransform",
+										"target": 1
 									},
 									{
 										"kind": "text",
@@ -4157,7 +4216,7 @@
 					"fileName": "src/eventStreamReader.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/eventStreamReader.ts#L1"
+					"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/eventStreamReader.ts#L1"
 				}
 			]
 		},
@@ -4194,7 +4253,7 @@
 									"fileName": "src/undici/EventSource.ts",
 									"line": 19,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/undici/EventSource.ts#L19"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/undici/EventSource.ts#L19"
 								}
 							],
 							"signatures": [
@@ -4262,7 +4321,7 @@
 									"fileName": "src/undici/EventSource.ts",
 									"line": 48,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/undici/EventSource.ts#L48"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/undici/EventSource.ts#L48"
 								}
 							],
 							"type": {
@@ -4283,9 +4342,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 58,
+									"line": 60,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L58"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L60"
 								}
 							],
 							"type": {
@@ -4318,9 +4377,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 66,
+									"line": 68,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L66"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L68"
 								}
 							],
 							"type": {
@@ -4341,9 +4400,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 66,
+													"line": 68,
 													"character": 19,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L66"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L68"
 												}
 											],
 											"signatures": [
@@ -4395,9 +4454,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 65,
+									"line": 67,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L65"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L67"
 								}
 							],
 							"type": {
@@ -4418,9 +4477,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 65,
+													"line": 67,
 													"character": 21,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L65"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L67"
 												}
 											],
 											"signatures": [
@@ -4472,9 +4531,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 64,
+									"line": 66,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L64"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L66"
 								}
 							],
 							"type": {
@@ -4495,9 +4554,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 64,
+													"line": 66,
 													"character": 18,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L64"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L66"
 												}
 											],
 											"signatures": [
@@ -4550,9 +4609,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 52,
+									"line": 54,
 									"character": 18,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L52"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L54"
 								}
 							],
 							"type": {
@@ -4578,9 +4637,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 57,
+									"line": 59,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L57"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L59"
 								}
 							],
 							"type": {
@@ -4608,9 +4667,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 55,
+									"line": 57,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L55"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L57"
 								}
 							],
 							"type": {
@@ -4638,9 +4697,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 56,
+									"line": 58,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L56"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L58"
 								}
 							],
 							"type": {
@@ -4666,9 +4725,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 59,
+									"line": 61,
 									"character": 13,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L59"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L61"
 								}
 							],
 							"getSignature": {
@@ -4942,7 +5001,7 @@
 									"fileName": "src/undici/EventSource.ts",
 									"line": 50,
 									"character": 21,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/undici/EventSource.ts#L50"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/undici/EventSource.ts#L50"
 								}
 							],
 							"signatures": [
@@ -4999,9 +5058,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 68,
+									"line": 70,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L68"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L70"
 								}
 							],
 							"signatures": [
@@ -5105,9 +5164,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 111,
+									"line": 113,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L111"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L113"
 								}
 							],
 							"signatures": [
@@ -5155,9 +5214,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 180,
+									"line": 182,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L180"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L182"
 								}
 							],
 							"signatures": [
@@ -5207,9 +5266,9 @@
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 182,
+															"line": 184,
 															"character": 20,
-															"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L182"
+															"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L184"
 														}
 													],
 													"signatures": [
@@ -5257,9 +5316,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 97,
+									"line": 99,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L97"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L99"
 								}
 							],
 							"signatures": [
@@ -5306,9 +5365,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 99,
+																	"line": 101,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L99"
+																	"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L101"
 																}
 															],
 															"type": {
@@ -5329,9 +5388,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 98,
+																	"line": 100,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L98"
+																	"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L100"
 																}
 															],
 															"type": {
@@ -5352,9 +5411,9 @@
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 97,
+															"line": 99,
 															"character": 38,
-															"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L97"
+															"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L99"
 														}
 													]
 												}
@@ -5504,9 +5563,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 138,
+									"line": 140,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L138"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L140"
 								}
 							],
 							"signatures": [
@@ -5567,9 +5626,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 164,
+									"line": 166,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L164"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L166"
 								}
 							],
 							"signatures": [
@@ -5629,9 +5688,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 151,
+									"line": 153,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L151"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L153"
 								}
 							],
 							"signatures": [
@@ -5691,9 +5750,9 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 128,
+									"line": 130,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/BaseEventSource.ts#L128"
+									"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/BaseEventSource.ts#L130"
 								}
 							],
 							"signatures": [
@@ -5781,7 +5840,7 @@
 							"fileName": "src/undici/EventSource.ts",
 							"line": 18,
 							"character": 13,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/undici/EventSource.ts#L18"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/undici/EventSource.ts#L18"
 						}
 					],
 					"extendedTypes": [
@@ -5803,7 +5862,7 @@
 							"fileName": "src/undici/EventSource.ts",
 							"line": 7,
 							"character": 12,
-							"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/undici/EventSource.ts#L7"
+							"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/undici/EventSource.ts#L7"
 						}
 					],
 					"type": {
@@ -5831,7 +5890,7 @@
 													"fileName": "src/undici/EventSource.ts",
 													"line": 7,
 													"character": 36,
-													"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/undici/EventSource.ts#L7"
+													"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/undici/EventSource.ts#L7"
 												}
 											],
 											"type": {
@@ -5855,7 +5914,7 @@
 											"fileName": "src/undici/EventSource.ts",
 											"line": 7,
 											"character": 34,
-											"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/undici/EventSource.ts#L7"
+											"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/undici/EventSource.ts#L7"
 										}
 									]
 								}
@@ -5940,7 +5999,7 @@
 					"fileName": "src/undici/EventSource.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/undici/EventSource.ts#L1"
+					"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/undici/EventSource.ts#L1"
 				}
 			]
 		}
@@ -5969,7 +6028,7 @@
 			"fileName": "src/index.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/Purexo/EventStream/blob/e4dce49/src/index.ts#L1"
+			"url": "https://github.com/Purexo/EventStream/blob/76225b1/src/index.ts#L1"
 		}
 	]
 }
