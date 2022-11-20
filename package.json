@@ -11,8 +11,8 @@
     "./Parser": "./dist/eventStreamParser.js",
     "./Reader": "./dist/eventStreamReader.js",
     "./BaseEventSource": "./dist/BaseEventSource.js",
-    "./EventSourceNode": "./dist/node/EventSource.js",
-    "./EventSourceUndici": "./dist/undici/EventSource.js"
+    "./Node": "./dist/node/EventSource.js",
+    "./Undici": "./dist/undici/EventSource.js"
   },
   "repository": {
     "type": "git",

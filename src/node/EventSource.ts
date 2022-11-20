@@ -9,10 +9,7 @@ import { BaseEventSource, EVENT_STREAM_HEADERS } from '../BaseEventSource.js';
  * and reader-parser of this package
  */
 export class EventSource extends BaseEventSource {
-  constructor(
-    url: string,
-    eventSourceInitDict: http.RequestOptions | https.RequestOptions = {},
-  ) {
+  constructor(url: string, eventSourceInitDict: https.RequestOptions = {}) {
     super(url);
 
     if (eventSourceInitDict.headers === undefined)
