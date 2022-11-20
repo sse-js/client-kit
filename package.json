@@ -73,6 +73,9 @@
           "readonly": "array"
         }
       ]
-    }
+    },
+    "ignorePatterns": [
+      "dist/**"
+    ]
   }
 }

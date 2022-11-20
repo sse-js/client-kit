@@ -15,7 +15,8 @@ export class EventSource extends BaseEventSource {
   ) {
     super(url);
 
-    if (eventSourceInitDict.headers === undefined) eventSourceInitDict.headers = {};
+    if (eventSourceInitDict.headers === undefined)
+      eventSourceInitDict.headers = {};
     Object.assign(eventSourceInitDict.headers, EVENT_STREAM_HEADERS);
 
     const wgUrl = new URL(url);

@@ -91,7 +91,7 @@ export function createParser(): (
           break;
         case 'comment':
           if (isLF()) {
-            if (event.comments == null) {
+            if (event.comments === undefined) {
               event.comments = [];
             }
             event.comments.push(comment);
