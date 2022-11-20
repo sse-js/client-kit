@@ -24,28 +24,31 @@ export class EventSource extends BaseEventSource {
       url,
       eventSourceInitDict,
       response => {
+        this.#response = response;
+
         if (!this.isValidResponse(response)) {
           this.handleInvalidResponse();
-          response.destroy();
+          this.cleaning();
           return;
         }
 
         this.signalOpen();
-        const stream = response.pipe(createEventStreamTransform());
 
-        this.initStreamAdaptor(stream, () => {
-          this.#request.destroy();
-          response.destroy();
-        });
+        const stream = response.pipe(createEventStreamTransform());
+        this.initStreamAdaptor(stream, this.cleaning);
       },
     );
   }
 
-  public close(): void {
-    this.#request.destroy();
-    super.close();
-  }
-
   // implementation
-  #request: http.ClientRequest;
+  #request?: http.ClientRequest;
+  #response?: http.IncomingMessage;
+
+  protected readonly cleaning = (): void => {
+    this.#response?.destroy();
+    this.#request?.destroy();
+
+    this.#response = undefined;
+    this.#request = undefined;
+  };
 }

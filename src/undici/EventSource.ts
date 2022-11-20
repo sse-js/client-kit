@@ -17,27 +17,27 @@ export class EventSource extends BaseEventSource {
     undici
       .request(url, eventSourceInitDict)
       .then(responseData => {
+        this.#responseBody = responseData.body;
+
         if (!this.isValidResponse(responseData)) {
           this.handleInvalidResponse();
-          responseData.body.destroy();
+          this.cleaning();
           return;
         }
 
-        this.#responseBody = responseData.body;
-
         this.signalOpen();
-        const stream = responseData.body.pipe(createEventStreamTransform());
 
-        this.initStreamAdaptor(stream, () => responseData.body.destroy());
+        const stream = responseData.body.pipe(createEventStreamTransform());
+        this.initStreamAdaptor(stream, this.cleaning);
       })
       .catch(this.signalError);
   }
 
-  public close(): void {
-    this.#responseBody?.destroy();
-    super.close();
-  }
-
   // implementation
   #responseBody?: BodyReadable;
+
+  protected readonly cleaning = (): void => {
+    this.#responseBody?.destroy();
+    this.#responseBody = undefined;
+  };
 }

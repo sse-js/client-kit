@@ -12,7 +12,37 @@ export const EVENT_STREAM_HEADERS = Object.freeze({
   Accept: 'text/event-stream',
 });
 
+/**
+ * Base class for EventSource implementation
+ *
+ * Implement BaseSource 101:
+ *
+ * - extends this class
+ * - constructor(url, eventSourceInitDict) :
+ *   - take url as first argument
+ *   - an eventSourceInitDict as second argument, for request options
+ *   - merge `EVENT_STREAM_HEADERS` with `eventSourceInitDict.headers`
+ *   - run the request
+ *   - on response :
+ *     - store resources to clean later
+ *     - use `this.isValidResponse(response)`
+ *       - if not valid call `this.handleInvalidResponse()` and cleanup opened resources (request / response)
+ *       - if valid
+ *         - `this.signalOpen()`
+ *         - Adapt the response to the EventSource api
+ *         - Your response body should be a stream (lazyness fetching / parsing / transform)
+ *         - `const stream = response.pipe(createEventStreamTransform())`
+ *         - `this.initStreamAdaptor(stream, this.cleaning)`
+ * - cleaning()
+ *   clean resources stored and unassign them
+ *
+ * @see https://html.spec.whatwg.org/multipage/server-sent-events.html#the-eventsource-interface for the spec
+ */
 export abstract class BaseEventSource extends EventTarget {
+  //
+  // Common implementation of EventSource
+  //
+
   protected constructor(url: string) {
     super();
 
@@ -35,19 +65,31 @@ export abstract class BaseEventSource extends EventTarget {
   public onmessage: ((event: Event) => void) | undefined;
   public onerror: ((event: Event) => void) | undefined;
 
-  /**
-   * MUST be implemented by child class
-   * public close() {
-   *   super.close();
-   *   // cleanup resources
-   *   this.request.destroy();
-   * }
-   */
   public close(): void {
+    this.cleaning();
     this._readyState = ReadyState.CLOSED;
   }
 
+  /**
+   * MUST be implemented by child class
+   * protected cleaning() {
+   *   // clean resources
+   *   // ex
+   *   this.#request?.destroy();
+   *   this.#request = undefined;
+   * }
+   */
+  protected abstract cleaning(): void;
+
+  //
   // Implementation helpers, should not override
+  //
+
+  /**
+   * Check if response 200 or Content-Type is text/event-stream
+   * @param response
+   * @protected
+   */
   protected isValidResponse(response: {
     statusCode?: number;
     headers?: IncomingHttpHeaders;
@@ -58,6 +100,10 @@ export abstract class BaseEventSource extends EventTarget {
     );
   }
 
+  /**
+   * build an error attach to an event error and dispatch the event
+   * @protected
+   */
   protected handleInvalidResponse(): void {
     const error = new Error();
     const event = new Event('error');
@@ -71,12 +117,20 @@ export abstract class BaseEventSource extends EventTarget {
     this.dispatchEvent(event);
   }
 
+  /**
+   * Dispatch open event
+   * @protected
+   */
   protected signalOpen(): void {
     this._readyState = ReadyState.OPEN;
     const event = new Event('open');
     this.dispatchEvent(event);
   }
 
+  /**
+   * Dispatch an event error
+   * @param error
+   */
   protected signalError = (error: Error): void => {
     const event = new Event('error');
     // @ts-expect-error
@@ -85,6 +139,11 @@ export abstract class BaseEventSource extends EventTarget {
     this.dispatchEvent(event);
   };
 
+  /**
+   * Dispatch a message with an IEvent
+   * and try to dispatch named event from message event
+   * @param _event
+   */
   protected signalMessage = (_event: IEvent): void => {
     const message = new Event('message');
     Object.assign(message, _event);
@@ -93,6 +152,11 @@ export abstract class BaseEventSource extends EventTarget {
     this.signalEvent(_event);
   };
 
+  /**
+   * Check if IEvent is named (prop event: string)
+   * Dispatch it
+   * @param _event
+   */
   protected signalEvent = (_event: IEvent): void => {
     if (_event.event !== undefined) {
       const event = new Event(_event.event);
@@ -101,6 +165,14 @@ export abstract class BaseEventSource extends EventTarget {
     }
   };
 
+  /**
+   * - listen error on stream to signal in EventTarget way
+   * - listen on data on stream to signal it EventTarget way
+   *   (message, named event)
+   * @param stream
+   * @param onErrorCleanUp
+   * @protected
+   */
   protected initStreamAdaptor(
     stream: TransformParser,
     onErrorCleanUp: () => void,
