@@ -1,7 +1,7 @@
 import * as undici from 'undici';
 import type { Dispatcher } from 'undici';
 import type BodyReadable from 'undici/types/readable';
-import { BaseEventSource } from '../BaseEventSource.js';
+import { BaseEventSource, EVENT_STREAM_HEADERS } from '../BaseEventSource.js';
 import { createEventStreamTransform } from '../eventStreamParser.js';
 
 export type EventSourceInitDict = { dispatcher?: Dispatcher } & Omit<
@@ -10,9 +10,20 @@ export type EventSourceInitDict = { dispatcher?: Dispatcher } & Omit<
 > &
   Partial<Pick<Dispatcher.RequestOptions, 'method'>>;
 
+/**
+ * polyfill of browser EventSource relying on Node EventTarget,
+ * undici api,
+ * and reader-parser of this package
+ */
 export class EventSource extends BaseEventSource {
   constructor(url: string, eventSourceInitDict: EventSourceInitDict = {}) {
     super(url);
+
+    if (eventSourceInitDict.headers === undefined)
+      eventSourceInitDict.headers = {};
+
+    // @ts-expect-error
+    Object.assign(eventSourceInitDict.headers, EVENT_STREAM_HEADERS);
 
     undici
       .request(url, eventSourceInitDict)
