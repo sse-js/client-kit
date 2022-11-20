@@ -1,7 +1,7 @@
 import * as http from 'node:http';
 import * as https from 'node:https';
-import {createEventStreamTransform} from '../eventStreamParser.js';
-import {BaseEventSource, EVENT_STREAM_HEADERS} from '../BaseEventSource.js';
+import { createEventStreamTransform } from '../eventStreamParser.js';
+import { BaseEventSource, EVENT_STREAM_HEADERS } from '../BaseEventSource.js';
 
 /**
  * polyfill of browser EventSource relying on Node EventTarget,
@@ -15,11 +15,12 @@ export class EventSource extends BaseEventSource {
   ) {
     super(url);
 
-    if (!eventSourceInitDict.headers) eventSourceInitDict.headers = {};
+    if (eventSourceInitDict.headers === undefined)
+      eventSourceInitDict.headers = {};
     Object.assign(eventSourceInitDict.headers, EVENT_STREAM_HEADERS);
 
-    const wg_url = new URL(url);
-    this.#request = (wg_url.protocol === 'https:' ? https : http).request(
+    const wgUrl = new URL(url);
+    this.#request = (wgUrl.protocol === 'https:' ? https : http).request(
       url,
       eventSourceInitDict,
       response => {
@@ -40,7 +41,7 @@ export class EventSource extends BaseEventSource {
     );
   }
 
-  public close() {
+  public close(): void {
     this.#request.destroy();
     super.close();
   }

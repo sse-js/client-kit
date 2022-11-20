@@ -1,8 +1,8 @@
-import {on} from 'node:events';
-import type {Readable} from 'node:stream';
+import { on } from 'node:events';
+import type { Readable } from 'node:stream';
 
-import {createEventStreamTransform} from './eventStreamParser.js';
-import type {IEvent} from './eventStreamParser.js';
+import { createEventStreamTransform } from './eventStreamParser.js';
+import type { IEvent } from './eventStreamParser.js';
 
 /**
  * @param stream A readable stream which output string or buffer of utf8 string
