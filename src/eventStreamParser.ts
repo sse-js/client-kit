@@ -69,6 +69,8 @@ export function createParser(): (
     ): void {
       next();
 
+      if (value.value === undefined) return;
+
       if (!ignoreIfFn(value)) {
         looks.push(value);
       }
