@@ -188,6 +188,14 @@ const stream = await new Promise((resolve, reject) => {
 for await (const event of eventStreamReader(stream)) {
   console.log(event);
 }
+
+// also support AbortSignal
+const ac = new AbortController();
+setTimeout(() => ac.abort(), 1000 * 60);
+
+for await (const event of eventStreamReader(stream, ac.signal)) {
+  console.log(event);
+}
 ```
 
 ### Stream API

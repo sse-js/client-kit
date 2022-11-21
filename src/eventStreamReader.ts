@@ -9,6 +9,7 @@ import type { IEvent } from './eventStreamParser.js';
  * rely on {@link Parser:createEventStreamTransform} and `node:events` `on` api
  *
  * @param stream A readable stream which output string or buffer of utf8 string
+ * @param signal An AbortSignal to stop 'data' event listening
  *
  * @example
  * ```ts
@@ -24,11 +25,12 @@ import type { IEvent } from './eventStreamParser.js';
  */
 export async function* eventStreamReader(
   stream: Readable,
+  signal?: AbortSignal,
 ): AsyncGenerator<IEvent, void, void> {
   const transform = createEventStreamTransform();
   stream = stream.pipe(transform);
 
-  for await (const events of on(stream, 'data')) {
+  for await (const events of on(stream, 'data', { signal })) {
     yield* events;
   }
 }

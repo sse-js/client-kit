@@ -7,7 +7,7 @@
 	"originalName": "",
 	"children": [
 		{
-			"id": 246,
+			"id": 247,
 			"name": "EventSource",
 			"kind": 8388608,
 			"kindString": "Reference",
@@ -20,10 +20,10 @@
 					"url": "https://github.com/Purexo/EventStream/blob/main/src/index.ts#L8"
 				}
 			],
-			"target": 107
+			"target": 108
 		},
 		{
-			"id": 247,
+			"id": 248,
 			"name": "eventStreamReader",
 			"kind": 8388608,
 			"kindString": "Reference",
@@ -39,21 +39,21 @@
 			"target": 29
 		},
 		{
-			"id": 32,
+			"id": 33,
 			"name": "BaseEventSource",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 33,
+					"id": 34,
 					"name": "ReadyState",
 					"kind": 8,
 					"kindString": "Enumeration",
 					"flags": {},
 					"children": [
 						{
-							"id": 36,
+							"id": 37,
 							"name": "CLOSED",
 							"kind": 16,
 							"kindString": "Enumeration Member",
@@ -72,7 +72,7 @@
 							}
 						},
 						{
-							"id": 34,
+							"id": 35,
 							"name": "CONNECTING",
 							"kind": 16,
 							"kindString": "Enumeration Member",
@@ -91,7 +91,7 @@
 							}
 						},
 						{
-							"id": 35,
+							"id": 36,
 							"name": "OPEN",
 							"kind": 16,
 							"kindString": "Enumeration Member",
@@ -114,9 +114,9 @@
 						{
 							"title": "Enumeration Members",
 							"children": [
-								36,
-								34,
-								35
+								37,
+								35,
+								36
 							]
 						}
 					],
@@ -130,7 +130,7 @@
 					]
 				},
 				{
-					"id": 41,
+					"id": 42,
 					"name": "BaseEventSource",
 					"kind": 128,
 					"kindString": "Class",
@@ -155,7 +155,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "EVENT_STREAM_HEADERS",
-								"target": 37
+								"target": 38
 							},
 							{
 								"kind": "text",
@@ -173,7 +173,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "isValidResponse",
-								"target": 68
+								"target": 69
 							},
 							{
 								"kind": "text",
@@ -183,7 +183,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "handleInvalidResponse",
-								"target": 74
+								"target": 75
 							},
 							{
 								"kind": "text",
@@ -193,7 +193,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "signalOpen",
-								"target": 76
+								"target": 77
 							},
 							{
 								"kind": "text",
@@ -229,7 +229,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "initStreamAdaptor",
-								"target": 87
+								"target": 88
 							},
 							{
 								"kind": "text",
@@ -250,7 +250,7 @@
 					},
 					"children": [
 						{
-							"id": 45,
+							"id": 46,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -267,14 +267,14 @@
 							],
 							"signatures": [
 								{
-									"id": 46,
+									"id": 47,
 									"name": "new BaseEventSource",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 47,
+											"id": 48,
 											"name": "url",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -287,7 +287,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 41,
+										"id": 42,
 										"name": "BaseEventSource"
 									},
 									"overwrites": {
@@ -302,7 +302,7 @@
 							}
 						},
 						{
-							"id": 49,
+							"id": 50,
 							"name": "_readyState",
 							"kind": 1024,
 							"kindString": "Property",
@@ -332,7 +332,7 @@
 							}
 						},
 						{
-							"id": 60,
+							"id": 61,
 							"name": "onerror",
 							"kind": 1024,
 							"kindString": "Property",
@@ -357,7 +357,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 61,
+											"id": 62,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -372,14 +372,14 @@
 											],
 											"signatures": [
 												{
-													"id": 62,
+													"id": 63,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 63,
+															"id": 64,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -404,7 +404,7 @@
 							}
 						},
 						{
-							"id": 56,
+							"id": 57,
 							"name": "onmessage",
 							"kind": 1024,
 							"kindString": "Property",
@@ -429,7 +429,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 57,
+											"id": 58,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -444,14 +444,14 @@
 											],
 											"signatures": [
 												{
-													"id": 58,
+													"id": 59,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 59,
+															"id": 60,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -476,7 +476,7 @@
 							}
 						},
 						{
-							"id": 52,
+							"id": 53,
 							"name": "onopen",
 							"kind": 1024,
 							"kindString": "Property",
@@ -501,7 +501,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 53,
+											"id": 54,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -516,14 +516,14 @@
 											],
 											"signatures": [
 												{
-													"id": 54,
+													"id": 55,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 55,
+															"id": 56,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -548,7 +548,7 @@
 							}
 						},
 						{
-							"id": 48,
+							"id": 49,
 							"name": "url",
 							"kind": 1024,
 							"kindString": "Property",
@@ -570,7 +570,7 @@
 							}
 						},
 						{
-							"id": 44,
+							"id": 45,
 							"name": "CLOSED",
 							"kind": 1024,
 							"kindString": "Property",
@@ -589,13 +589,13 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 36,
+								"id": 37,
 								"name": "CLOSED"
 							},
 							"defaultValue": "ReadyState.CLOSED"
 						},
 						{
-							"id": 42,
+							"id": 43,
 							"name": "CONNECTING",
 							"kind": 1024,
 							"kindString": "Property",
@@ -614,13 +614,13 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 34,
+								"id": 35,
 								"name": "CONNECTING"
 							},
 							"defaultValue": "ReadyState.CONNECTING"
 						},
 						{
-							"id": 43,
+							"id": 44,
 							"name": "OPEN",
 							"kind": 1024,
 							"kindString": "Property",
@@ -639,13 +639,13 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 35,
+								"id": 36,
 								"name": "OPEN"
 							},
 							"defaultValue": "ReadyState.OPEN"
 						},
 						{
-							"id": 50,
+							"id": 51,
 							"name": "readyState",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -661,7 +661,7 @@
 								}
 							],
 							"getSignature": {
-								"id": 51,
+								"id": 52,
 								"name": "readyState",
 								"kind": 524288,
 								"kindString": "Get signature",
@@ -682,7 +682,7 @@
 							}
 						},
 						{
-							"id": 93,
+							"id": 94,
 							"name": "addEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -698,7 +698,7 @@
 							],
 							"signatures": [
 								{
-									"id": 94,
+									"id": 95,
 									"name": "addEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -827,7 +827,7 @@
 									},
 									"parameters": [
 										{
-											"id": 95,
+											"id": 96,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -840,7 +840,7 @@
 											}
 										},
 										{
-											"id": 96,
+											"id": 97,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -866,7 +866,7 @@
 											}
 										},
 										{
-											"id": 97,
+											"id": 98,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -907,7 +907,7 @@
 							}
 						},
 						{
-							"id": 66,
+							"id": 67,
 							"name": "cleaning",
 							"kind": 2048,
 							"kindString": "Method",
@@ -925,7 +925,7 @@
 							],
 							"signatures": [
 								{
-									"id": 67,
+									"id": 68,
 									"name": "cleaning",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -957,7 +957,7 @@
 							]
 						},
 						{
-							"id": 64,
+							"id": 65,
 							"name": "close",
 							"kind": 2048,
 							"kindString": "Method",
@@ -974,7 +974,7 @@
 							],
 							"signatures": [
 								{
-									"id": 65,
+									"id": 66,
 									"name": "close",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -987,7 +987,7 @@
 							]
 						},
 						{
-							"id": 98,
+							"id": 99,
 							"name": "dispatchEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1003,7 +1003,7 @@
 							],
 							"signatures": [
 								{
-									"id": 99,
+									"id": 100,
 									"name": "dispatchEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1020,7 +1020,7 @@
 									},
 									"parameters": [
 										{
-											"id": 100,
+											"id": 101,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1051,7 +1051,7 @@
 							}
 						},
 						{
-							"id": 74,
+							"id": 75,
 							"name": "handleInvalidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1068,7 +1068,7 @@
 							],
 							"signatures": [
 								{
-									"id": 75,
+									"id": 76,
 									"name": "handleInvalidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1091,7 +1091,7 @@
 							]
 						},
 						{
-							"id": 87,
+							"id": 88,
 							"name": "initStreamAdaptor",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1108,7 +1108,7 @@
 							],
 							"signatures": [
 								{
-									"id": 88,
+									"id": 89,
 									"name": "initStreamAdaptor",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1125,7 +1125,7 @@
 									},
 									"parameters": [
 										{
-											"id": 89,
+											"id": 90,
 											"name": "stream",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1137,7 +1137,7 @@
 											}
 										},
 										{
-											"id": 90,
+											"id": 91,
 											"name": "onErrorCleanUp",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1145,7 +1145,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 91,
+													"id": 92,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -1160,7 +1160,7 @@
 													],
 													"signatures": [
 														{
-															"id": 92,
+															"id": 93,
 															"name": "__type",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -1183,7 +1183,7 @@
 							]
 						},
 						{
-							"id": 68,
+							"id": 69,
 							"name": "isValidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1200,7 +1200,7 @@
 							],
 							"signatures": [
 								{
-									"id": 69,
+									"id": 70,
 									"name": "isValidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1217,7 +1217,7 @@
 									},
 									"parameters": [
 										{
-											"id": 70,
+											"id": 71,
 											"name": "response",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1225,14 +1225,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 71,
+													"id": 72,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 73,
+															"id": 74,
 															"name": "headers",
 															"kind": 1024,
 															"kindString": "Property",
@@ -1255,7 +1255,7 @@
 															}
 														},
 														{
-															"id": 72,
+															"id": 73,
 															"name": "statusCode",
 															"kind": 1024,
 															"kindString": "Property",
@@ -1280,8 +1280,8 @@
 														{
 															"title": "Properties",
 															"children": [
-																73,
-																72
+																74,
+																73
 															]
 														}
 													],
@@ -1305,7 +1305,7 @@
 							]
 						},
 						{
-							"id": 101,
+							"id": 102,
 							"name": "removeEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1321,7 +1321,7 @@
 							],
 							"signatures": [
 								{
-									"id": 102,
+									"id": 103,
 									"name": "removeEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1338,7 +1338,7 @@
 									},
 									"parameters": [
 										{
-											"id": 103,
+											"id": 104,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1351,7 +1351,7 @@
 											}
 										},
 										{
-											"id": 104,
+											"id": 105,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1377,7 +1377,7 @@
 											}
 										},
 										{
-											"id": 105,
+											"id": 106,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1418,7 +1418,7 @@
 							}
 						},
 						{
-							"id": 78,
+							"id": 79,
 							"name": "signalError",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1435,7 +1435,7 @@
 							],
 							"signatures": [
 								{
-									"id": 79,
+									"id": 80,
 									"name": "signalError",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1450,7 +1450,7 @@
 									},
 									"parameters": [
 										{
-											"id": 80,
+											"id": 81,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1471,7 +1471,7 @@
 							]
 						},
 						{
-							"id": 84,
+							"id": 85,
 							"name": "signalEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1488,7 +1488,7 @@
 							],
 							"signatures": [
 								{
-									"id": 85,
+									"id": 86,
 									"name": "signalEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1503,7 +1503,7 @@
 									},
 									"parameters": [
 										{
-											"id": 86,
+											"id": 87,
 											"name": "_event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1523,7 +1523,7 @@
 							]
 						},
 						{
-							"id": 81,
+							"id": 82,
 							"name": "signalMessage",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1540,7 +1540,7 @@
 							],
 							"signatures": [
 								{
-									"id": 82,
+									"id": 83,
 									"name": "signalMessage",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1555,7 +1555,7 @@
 									},
 									"parameters": [
 										{
-											"id": 83,
+											"id": 84,
 											"name": "_event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1575,7 +1575,7 @@
 							]
 						},
 						{
-							"id": 76,
+							"id": 77,
 							"name": "signalOpen",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1592,7 +1592,7 @@
 							],
 							"signatures": [
 								{
-									"id": 77,
+									"id": 78,
 									"name": "signalOpen",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1619,43 +1619,43 @@
 						{
 							"title": "Constructors",
 							"children": [
-								45
+								46
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
+								50,
+								61,
+								57,
+								53,
 								49,
-								60,
-								56,
-								52,
-								48,
-								44,
-								42,
-								43
+								45,
+								43,
+								44
 							]
 						},
 						{
 							"title": "Accessors",
 							"children": [
-								50
+								51
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								93,
-								66,
-								64,
-								98,
-								74,
-								87,
-								68,
-								101,
-								78,
-								84,
-								81,
-								76
+								94,
+								67,
+								65,
+								99,
+								75,
+								88,
+								69,
+								102,
+								79,
+								85,
+								82,
+								77
 							]
 						}
 					],
@@ -1678,18 +1678,18 @@
 					"extendedBy": [
 						{
 							"type": "reference",
-							"id": 107,
+							"id": 108,
 							"name": "EventSource"
 						},
 						{
 							"type": "reference",
-							"id": 179,
+							"id": 180,
 							"name": "EventSource"
 						}
 					]
 				},
 				{
-					"id": 37,
+					"id": 38,
 					"name": "EVENT_STREAM_HEADERS",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1710,14 +1710,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 38,
+									"id": 39,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 40,
+											"id": 41,
 											"name": "Accept",
 											"kind": 1024,
 											"kindString": "Property",
@@ -1737,7 +1737,7 @@
 											"defaultValue": "'text/event-stream'"
 										},
 										{
-											"id": 39,
+											"id": 40,
 											"name": "Cache-Control",
 											"kind": 1024,
 											"kindString": "Property",
@@ -1761,8 +1761,8 @@
 										{
 											"title": "Properties",
 											"children": [
-												40,
-												39
+												41,
+												40
 											]
 										}
 									],
@@ -1788,19 +1788,19 @@
 				{
 					"title": "Enumerations",
 					"children": [
-						33
+						34
 					]
 				},
 				{
 					"title": "Classes",
 					"children": [
-						41
+						42
 					]
 				},
 				{
 					"title": "Variables",
 					"children": [
-						37
+						38
 					]
 				}
 			],
@@ -1814,14 +1814,14 @@
 			]
 		},
 		{
-			"id": 106,
+			"id": 107,
 			"name": "Node",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 107,
+					"id": 108,
 					"name": "EventSource",
 					"kind": 128,
 					"kindString": "Class",
@@ -1836,7 +1836,7 @@
 					},
 					"children": [
 						{
-							"id": 111,
+							"id": 112,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -1851,14 +1851,14 @@
 							],
 							"signatures": [
 								{
-									"id": 112,
+									"id": 113,
 									"name": "new EventSource",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 113,
+											"id": 114,
 											"name": "url",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1869,7 +1869,7 @@
 											}
 										},
 										{
-											"id": 114,
+											"id": 115,
 											"name": "eventSourceInitDict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1885,24 +1885,24 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 107,
+										"id": 108,
 										"name": "EventSource"
 									},
 									"overwrites": {
 										"type": "reference",
-										"id": 46,
+										"id": 47,
 										"name": "BaseEventSource.constructor"
 									}
 								}
 							],
 							"overwrites": {
 								"type": "reference",
-								"id": 45,
+								"id": 46,
 								"name": "BaseEventSource.constructor"
 							}
 						},
 						{
-							"id": 115,
+							"id": 116,
 							"name": "#request",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1926,7 +1926,7 @@
 							}
 						},
 						{
-							"id": 116,
+							"id": 117,
 							"name": "#response",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1950,7 +1950,7 @@
 							}
 						},
 						{
-							"id": 120,
+							"id": 121,
 							"name": "_readyState",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1980,12 +1980,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 49,
+								"id": 50,
 								"name": "BaseEventSource._readyState"
 							}
 						},
 						{
-							"id": 131,
+							"id": 132,
 							"name": "onerror",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2010,7 +2010,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 132,
+											"id": 133,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -2025,14 +2025,14 @@
 											],
 											"signatures": [
 												{
-													"id": 133,
+													"id": 134,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 134,
+															"id": 135,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -2057,12 +2057,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 60,
+								"id": 61,
 								"name": "BaseEventSource.onerror"
 							}
 						},
 						{
-							"id": 127,
+							"id": 128,
 							"name": "onmessage",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2087,7 +2087,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 128,
+											"id": 129,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -2102,14 +2102,14 @@
 											],
 											"signatures": [
 												{
-													"id": 129,
+													"id": 130,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 130,
+															"id": 131,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -2134,12 +2134,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 56,
+								"id": 57,
 								"name": "BaseEventSource.onmessage"
 							}
 						},
 						{
-							"id": 123,
+							"id": 124,
 							"name": "onopen",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2164,7 +2164,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 124,
+											"id": 125,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -2179,14 +2179,14 @@
 											],
 											"signatures": [
 												{
-													"id": 125,
+													"id": 126,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 126,
+															"id": 127,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -2211,12 +2211,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 52,
+								"id": 53,
 								"name": "BaseEventSource.onopen"
 							}
 						},
 						{
-							"id": 119,
+							"id": 120,
 							"name": "url",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2238,12 +2238,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 48,
+								"id": 49,
 								"name": "BaseEventSource.url"
 							}
 						},
 						{
-							"id": 110,
+							"id": 111,
 							"name": "CLOSED",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2262,18 +2262,18 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 36,
+								"id": 37,
 								"name": "CLOSED"
 							},
 							"defaultValue": "ReadyState.CLOSED",
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 44,
+								"id": 45,
 								"name": "BaseEventSource.CLOSED"
 							}
 						},
 						{
-							"id": 108,
+							"id": 109,
 							"name": "CONNECTING",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2292,18 +2292,18 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 34,
+								"id": 35,
 								"name": "CONNECTING"
 							},
 							"defaultValue": "ReadyState.CONNECTING",
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 42,
+								"id": 43,
 								"name": "BaseEventSource.CONNECTING"
 							}
 						},
 						{
-							"id": 109,
+							"id": 110,
 							"name": "OPEN",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2322,18 +2322,18 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 35,
+								"id": 36,
 								"name": "OPEN"
 							},
 							"defaultValue": "ReadyState.OPEN",
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 43,
+								"id": 44,
 								"name": "BaseEventSource.OPEN"
 							}
 						},
 						{
-							"id": 121,
+							"id": 122,
 							"name": "readyState",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -2349,7 +2349,7 @@
 								}
 							],
 							"getSignature": {
-								"id": 122,
+								"id": 123,
 								"name": "readyState",
 								"kind": 524288,
 								"kindString": "Get signature",
@@ -2374,12 +2374,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 50,
+								"id": 51,
 								"name": "BaseEventSource.readyState"
 							}
 						},
 						{
-							"id": 162,
+							"id": 163,
 							"name": "addEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2395,7 +2395,7 @@
 							],
 							"signatures": [
 								{
-									"id": 163,
+									"id": 164,
 									"name": "addEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2524,7 +2524,7 @@
 									},
 									"parameters": [
 										{
-											"id": 164,
+											"id": 165,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2537,7 +2537,7 @@
 											}
 										},
 										{
-											"id": 165,
+											"id": 166,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2563,7 +2563,7 @@
 											}
 										},
 										{
-											"id": 166,
+											"id": 167,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2594,19 +2594,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 94,
+										"id": 95,
 										"name": "BaseEventSource.addEventListener"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 93,
+								"id": 94,
 								"name": "BaseEventSource.addEventListener"
 							}
 						},
 						{
-							"id": 117,
+							"id": 118,
 							"name": "cleaning",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2624,7 +2624,7 @@
 							],
 							"signatures": [
 								{
-									"id": 118,
+									"id": 119,
 									"name": "cleaning",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2654,19 +2654,19 @@
 									},
 									"overwrites": {
 										"type": "reference",
-										"id": 67,
+										"id": 68,
 										"name": "BaseEventSource.cleaning"
 									}
 								}
 							],
 							"overwrites": {
 								"type": "reference",
-								"id": 66,
+								"id": 67,
 								"name": "BaseEventSource.cleaning"
 							}
 						},
 						{
-							"id": 135,
+							"id": 136,
 							"name": "close",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2683,7 +2683,7 @@
 							],
 							"signatures": [
 								{
-									"id": 136,
+									"id": 137,
 									"name": "close",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2694,19 +2694,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 65,
+										"id": 66,
 										"name": "BaseEventSource.close"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 64,
+								"id": 65,
 								"name": "BaseEventSource.close"
 							}
 						},
 						{
-							"id": 167,
+							"id": 168,
 							"name": "dispatchEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2722,7 +2722,7 @@
 							],
 							"signatures": [
 								{
-									"id": 168,
+									"id": 169,
 									"name": "dispatchEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2739,7 +2739,7 @@
 									},
 									"parameters": [
 										{
-											"id": 169,
+											"id": 170,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2760,19 +2760,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 99,
+										"id": 100,
 										"name": "BaseEventSource.dispatchEvent"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 98,
+								"id": 99,
 								"name": "BaseEventSource.dispatchEvent"
 							}
 						},
 						{
-							"id": 143,
+							"id": 144,
 							"name": "handleInvalidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2789,7 +2789,7 @@
 							],
 							"signatures": [
 								{
-									"id": 144,
+									"id": 145,
 									"name": "handleInvalidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2810,19 +2810,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 75,
+										"id": 76,
 										"name": "BaseEventSource.handleInvalidResponse"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 74,
+								"id": 75,
 								"name": "BaseEventSource.handleInvalidResponse"
 							}
 						},
 						{
-							"id": 156,
+							"id": 157,
 							"name": "initStreamAdaptor",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2839,7 +2839,7 @@
 							],
 							"signatures": [
 								{
-									"id": 157,
+									"id": 158,
 									"name": "initStreamAdaptor",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2856,7 +2856,7 @@
 									},
 									"parameters": [
 										{
-											"id": 158,
+											"id": 159,
 											"name": "stream",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2868,7 +2868,7 @@
 											}
 										},
 										{
-											"id": 159,
+											"id": 160,
 											"name": "onErrorCleanUp",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2876,7 +2876,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 160,
+													"id": 161,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -2891,7 +2891,7 @@
 													],
 													"signatures": [
 														{
-															"id": 161,
+															"id": 162,
 															"name": "__type",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -2912,19 +2912,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 88,
+										"id": 89,
 										"name": "BaseEventSource.initStreamAdaptor"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 87,
+								"id": 88,
 								"name": "BaseEventSource.initStreamAdaptor"
 							}
 						},
 						{
-							"id": 137,
+							"id": 138,
 							"name": "isValidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2941,7 +2941,7 @@
 							],
 							"signatures": [
 								{
-									"id": 138,
+									"id": 139,
 									"name": "isValidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2958,7 +2958,7 @@
 									},
 									"parameters": [
 										{
-											"id": 139,
+											"id": 140,
 											"name": "response",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2966,14 +2966,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 140,
+													"id": 141,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 142,
+															"id": 143,
 															"name": "headers",
 															"kind": 1024,
 															"kindString": "Property",
@@ -2996,7 +2996,7 @@
 															}
 														},
 														{
-															"id": 141,
+															"id": 142,
 															"name": "statusCode",
 															"kind": 1024,
 															"kindString": "Property",
@@ -3021,8 +3021,8 @@
 														{
 															"title": "Properties",
 															"children": [
-																142,
-																141
+																143,
+																142
 															]
 														}
 													],
@@ -3044,19 +3044,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 69,
+										"id": 70,
 										"name": "BaseEventSource.isValidResponse"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 68,
+								"id": 69,
 								"name": "BaseEventSource.isValidResponse"
 							}
 						},
 						{
-							"id": 170,
+							"id": 171,
 							"name": "removeEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3072,7 +3072,7 @@
 							],
 							"signatures": [
 								{
-									"id": 171,
+									"id": 172,
 									"name": "removeEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3089,7 +3089,7 @@
 									},
 									"parameters": [
 										{
-											"id": 172,
+											"id": 173,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3102,7 +3102,7 @@
 											}
 										},
 										{
-											"id": 173,
+											"id": 174,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3128,7 +3128,7 @@
 											}
 										},
 										{
-											"id": 174,
+											"id": 175,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3159,19 +3159,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 102,
+										"id": 103,
 										"name": "BaseEventSource.removeEventListener"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 101,
+								"id": 102,
 								"name": "BaseEventSource.removeEventListener"
 							}
 						},
 						{
-							"id": 147,
+							"id": 148,
 							"name": "signalError",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3188,7 +3188,7 @@
 							],
 							"signatures": [
 								{
-									"id": 148,
+									"id": 149,
 									"name": "signalError",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3203,7 +3203,7 @@
 									},
 									"parameters": [
 										{
-											"id": 149,
+											"id": 150,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3222,19 +3222,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 79,
+										"id": 80,
 										"name": "BaseEventSource.signalError"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 78,
+								"id": 79,
 								"name": "BaseEventSource.signalError"
 							}
 						},
 						{
-							"id": 153,
+							"id": 154,
 							"name": "signalEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3251,7 +3251,7 @@
 							],
 							"signatures": [
 								{
-									"id": 154,
+									"id": 155,
 									"name": "signalEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3266,7 +3266,7 @@
 									},
 									"parameters": [
 										{
-											"id": 155,
+											"id": 156,
 											"name": "_event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3284,19 +3284,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 85,
+										"id": 86,
 										"name": "BaseEventSource.signalEvent"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 84,
+								"id": 85,
 								"name": "BaseEventSource.signalEvent"
 							}
 						},
 						{
-							"id": 150,
+							"id": 151,
 							"name": "signalMessage",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3313,7 +3313,7 @@
 							],
 							"signatures": [
 								{
-									"id": 151,
+									"id": 152,
 									"name": "signalMessage",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3328,7 +3328,7 @@
 									},
 									"parameters": [
 										{
-											"id": 152,
+											"id": 153,
 											"name": "_event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3346,19 +3346,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 82,
+										"id": 83,
 										"name": "BaseEventSource.signalMessage"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 81,
+								"id": 82,
 								"name": "BaseEventSource.signalMessage"
 							}
 						},
 						{
-							"id": 145,
+							"id": 146,
 							"name": "signalOpen",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3375,7 +3375,7 @@
 							],
 							"signatures": [
 								{
-									"id": 146,
+									"id": 147,
 									"name": "signalOpen",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3396,14 +3396,14 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 77,
+										"id": 78,
 										"name": "BaseEventSource.signalOpen"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 76,
+								"id": 77,
 								"name": "BaseEventSource.signalOpen"
 							}
 						}
@@ -3412,45 +3412,45 @@
 						{
 							"title": "Constructors",
 							"children": [
-								111
+								112
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								115,
 								116,
+								117,
+								121,
+								132,
+								128,
+								124,
 								120,
-								131,
-								127,
-								123,
-								119,
-								110,
-								108,
-								109
+								111,
+								109,
+								110
 							]
 						},
 						{
 							"title": "Accessors",
 							"children": [
-								121
+								122
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								162,
-								117,
-								135,
-								167,
-								143,
-								156,
-								137,
-								170,
-								147,
-								153,
-								150,
-								145
+								163,
+								118,
+								136,
+								168,
+								144,
+								157,
+								138,
+								171,
+								148,
+								154,
+								151,
+								146
 							]
 						}
 					],
@@ -3465,7 +3465,7 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 41,
+							"id": 42,
 							"name": "BaseEventSource"
 						}
 					]
@@ -3475,7 +3475,7 @@
 				{
 					"title": "Classes",
 					"children": [
-						107
+						108
 					]
 				}
 			],
@@ -4098,9 +4098,9 @@
 					"sources": [
 						{
 							"fileName": "src/eventStreamReader.ts",
-							"line": 25,
+							"line": 26,
 							"character": 23,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamReader.ts#L25"
+							"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamReader.ts#L26"
 						}
 					],
 					"signatures": [
@@ -4176,6 +4176,29 @@
 										"qualifiedName": "internal.Readable",
 										"package": "@types/node"
 									}
+								},
+								{
+									"id": 32,
+									"name": "signal",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "An AbortSignal to stop 'data' event listening"
+											}
+										]
+									},
+									"type": {
+										"type": "reference",
+										"name": "AbortSignal",
+										"qualifiedName": "AbortSignal",
+										"package": "@types/node"
+									}
 								}
 							],
 							"type": {
@@ -4221,14 +4244,14 @@
 			]
 		},
 		{
-			"id": 175,
+			"id": 176,
 			"name": "Undici",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 179,
+					"id": 180,
 					"name": "EventSource",
 					"kind": 128,
 					"kindString": "Class",
@@ -4243,7 +4266,7 @@
 					},
 					"children": [
 						{
-							"id": 183,
+							"id": 184,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -4258,14 +4281,14 @@
 							],
 							"signatures": [
 								{
-									"id": 184,
+									"id": 185,
 									"name": "new EventSource",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 185,
+											"id": 186,
 											"name": "url",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4276,14 +4299,14 @@
 											}
 										},
 										{
-											"id": 186,
+											"id": 187,
 											"name": "eventSourceInitDict",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"id": 176,
+												"id": 177,
 												"name": "EventSourceInitDict"
 											},
 											"defaultValue": "{}"
@@ -4291,24 +4314,24 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 179,
+										"id": 180,
 										"name": "EventSource"
 									},
 									"overwrites": {
 										"type": "reference",
-										"id": 46,
+										"id": 47,
 										"name": "BaseEventSource.constructor"
 									}
 								}
 							],
 							"overwrites": {
 								"type": "reference",
-								"id": 45,
+								"id": 46,
 								"name": "BaseEventSource.constructor"
 							}
 						},
 						{
-							"id": 187,
+							"id": 188,
 							"name": "#responseBody",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4332,7 +4355,7 @@
 							}
 						},
 						{
-							"id": 191,
+							"id": 192,
 							"name": "_readyState",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4362,12 +4385,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 49,
+								"id": 50,
 								"name": "BaseEventSource._readyState"
 							}
 						},
 						{
-							"id": 202,
+							"id": 203,
 							"name": "onerror",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4392,7 +4415,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 203,
+											"id": 204,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -4407,14 +4430,14 @@
 											],
 											"signatures": [
 												{
-													"id": 204,
+													"id": 205,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 205,
+															"id": 206,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -4439,12 +4462,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 60,
+								"id": 61,
 								"name": "BaseEventSource.onerror"
 							}
 						},
 						{
-							"id": 198,
+							"id": 199,
 							"name": "onmessage",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4469,7 +4492,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 199,
+											"id": 200,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -4484,14 +4507,14 @@
 											],
 											"signatures": [
 												{
-													"id": 200,
+													"id": 201,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 201,
+															"id": 202,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -4516,12 +4539,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 56,
+								"id": 57,
 								"name": "BaseEventSource.onmessage"
 							}
 						},
 						{
-							"id": 194,
+							"id": 195,
 							"name": "onopen",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4546,7 +4569,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 195,
+											"id": 196,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -4561,14 +4584,14 @@
 											],
 											"signatures": [
 												{
-													"id": 196,
+													"id": 197,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 197,
+															"id": 198,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -4593,12 +4616,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 52,
+								"id": 53,
 								"name": "BaseEventSource.onopen"
 							}
 						},
 						{
-							"id": 190,
+							"id": 191,
 							"name": "url",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4620,12 +4643,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 48,
+								"id": 49,
 								"name": "BaseEventSource.url"
 							}
 						},
 						{
-							"id": 182,
+							"id": 183,
 							"name": "CLOSED",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4644,18 +4667,18 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 36,
+								"id": 37,
 								"name": "CLOSED"
 							},
 							"defaultValue": "ReadyState.CLOSED",
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 44,
+								"id": 45,
 								"name": "BaseEventSource.CLOSED"
 							}
 						},
 						{
-							"id": 180,
+							"id": 181,
 							"name": "CONNECTING",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4674,18 +4697,18 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 34,
+								"id": 35,
 								"name": "CONNECTING"
 							},
 							"defaultValue": "ReadyState.CONNECTING",
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 42,
+								"id": 43,
 								"name": "BaseEventSource.CONNECTING"
 							}
 						},
 						{
-							"id": 181,
+							"id": 182,
 							"name": "OPEN",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4704,18 +4727,18 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 35,
+								"id": 36,
 								"name": "OPEN"
 							},
 							"defaultValue": "ReadyState.OPEN",
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 43,
+								"id": 44,
 								"name": "BaseEventSource.OPEN"
 							}
 						},
 						{
-							"id": 192,
+							"id": 193,
 							"name": "readyState",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -4731,7 +4754,7 @@
 								}
 							],
 							"getSignature": {
-								"id": 193,
+								"id": 194,
 								"name": "readyState",
 								"kind": 524288,
 								"kindString": "Get signature",
@@ -4756,12 +4779,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 50,
+								"id": 51,
 								"name": "BaseEventSource.readyState"
 							}
 						},
 						{
-							"id": 233,
+							"id": 234,
 							"name": "addEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4777,7 +4800,7 @@
 							],
 							"signatures": [
 								{
-									"id": 234,
+									"id": 235,
 									"name": "addEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4906,7 +4929,7 @@
 									},
 									"parameters": [
 										{
-											"id": 235,
+											"id": 236,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4919,7 +4942,7 @@
 											}
 										},
 										{
-											"id": 236,
+											"id": 237,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4945,7 +4968,7 @@
 											}
 										},
 										{
-											"id": 237,
+											"id": 238,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4976,19 +4999,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 94,
+										"id": 95,
 										"name": "BaseEventSource.addEventListener"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 93,
+								"id": 94,
 								"name": "BaseEventSource.addEventListener"
 							}
 						},
 						{
-							"id": 188,
+							"id": 189,
 							"name": "cleaning",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5006,7 +5029,7 @@
 							],
 							"signatures": [
 								{
-									"id": 189,
+									"id": 190,
 									"name": "cleaning",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5036,19 +5059,19 @@
 									},
 									"overwrites": {
 										"type": "reference",
-										"id": 67,
+										"id": 68,
 										"name": "BaseEventSource.cleaning"
 									}
 								}
 							],
 							"overwrites": {
 								"type": "reference",
-								"id": 66,
+								"id": 67,
 								"name": "BaseEventSource.cleaning"
 							}
 						},
 						{
-							"id": 206,
+							"id": 207,
 							"name": "close",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5065,7 +5088,7 @@
 							],
 							"signatures": [
 								{
-									"id": 207,
+									"id": 208,
 									"name": "close",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5076,19 +5099,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 65,
+										"id": 66,
 										"name": "BaseEventSource.close"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 64,
+								"id": 65,
 								"name": "BaseEventSource.close"
 							}
 						},
 						{
-							"id": 238,
+							"id": 239,
 							"name": "dispatchEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5104,7 +5127,7 @@
 							],
 							"signatures": [
 								{
-									"id": 239,
+									"id": 240,
 									"name": "dispatchEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5121,7 +5144,7 @@
 									},
 									"parameters": [
 										{
-											"id": 240,
+											"id": 241,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5142,19 +5165,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 99,
+										"id": 100,
 										"name": "BaseEventSource.dispatchEvent"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 98,
+								"id": 99,
 								"name": "BaseEventSource.dispatchEvent"
 							}
 						},
 						{
-							"id": 214,
+							"id": 215,
 							"name": "handleInvalidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5171,7 +5194,7 @@
 							],
 							"signatures": [
 								{
-									"id": 215,
+									"id": 216,
 									"name": "handleInvalidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5192,19 +5215,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 75,
+										"id": 76,
 										"name": "BaseEventSource.handleInvalidResponse"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 74,
+								"id": 75,
 								"name": "BaseEventSource.handleInvalidResponse"
 							}
 						},
 						{
-							"id": 227,
+							"id": 228,
 							"name": "initStreamAdaptor",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5221,7 +5244,7 @@
 							],
 							"signatures": [
 								{
-									"id": 228,
+									"id": 229,
 									"name": "initStreamAdaptor",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5238,7 +5261,7 @@
 									},
 									"parameters": [
 										{
-											"id": 229,
+											"id": 230,
 											"name": "stream",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5250,7 +5273,7 @@
 											}
 										},
 										{
-											"id": 230,
+											"id": 231,
 											"name": "onErrorCleanUp",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5258,7 +5281,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 231,
+													"id": 232,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -5273,7 +5296,7 @@
 													],
 													"signatures": [
 														{
-															"id": 232,
+															"id": 233,
 															"name": "__type",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -5294,19 +5317,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 88,
+										"id": 89,
 										"name": "BaseEventSource.initStreamAdaptor"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 87,
+								"id": 88,
 								"name": "BaseEventSource.initStreamAdaptor"
 							}
 						},
 						{
-							"id": 208,
+							"id": 209,
 							"name": "isValidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5323,7 +5346,7 @@
 							],
 							"signatures": [
 								{
-									"id": 209,
+									"id": 210,
 									"name": "isValidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5340,7 +5363,7 @@
 									},
 									"parameters": [
 										{
-											"id": 210,
+											"id": 211,
 											"name": "response",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5348,14 +5371,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 211,
+													"id": 212,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 213,
+															"id": 214,
 															"name": "headers",
 															"kind": 1024,
 															"kindString": "Property",
@@ -5378,7 +5401,7 @@
 															}
 														},
 														{
-															"id": 212,
+															"id": 213,
 															"name": "statusCode",
 															"kind": 1024,
 															"kindString": "Property",
@@ -5403,8 +5426,8 @@
 														{
 															"title": "Properties",
 															"children": [
-																213,
-																212
+																214,
+																213
 															]
 														}
 													],
@@ -5426,19 +5449,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 69,
+										"id": 70,
 										"name": "BaseEventSource.isValidResponse"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 68,
+								"id": 69,
 								"name": "BaseEventSource.isValidResponse"
 							}
 						},
 						{
-							"id": 241,
+							"id": 242,
 							"name": "removeEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5454,7 +5477,7 @@
 							],
 							"signatures": [
 								{
-									"id": 242,
+									"id": 243,
 									"name": "removeEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5471,7 +5494,7 @@
 									},
 									"parameters": [
 										{
-											"id": 243,
+											"id": 244,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5484,7 +5507,7 @@
 											}
 										},
 										{
-											"id": 244,
+											"id": 245,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5510,7 +5533,7 @@
 											}
 										},
 										{
-											"id": 245,
+											"id": 246,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5541,19 +5564,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 102,
+										"id": 103,
 										"name": "BaseEventSource.removeEventListener"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 101,
+								"id": 102,
 								"name": "BaseEventSource.removeEventListener"
 							}
 						},
 						{
-							"id": 218,
+							"id": 219,
 							"name": "signalError",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5570,7 +5593,7 @@
 							],
 							"signatures": [
 								{
-									"id": 219,
+									"id": 220,
 									"name": "signalError",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5585,7 +5608,7 @@
 									},
 									"parameters": [
 										{
-											"id": 220,
+											"id": 221,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5604,19 +5627,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 79,
+										"id": 80,
 										"name": "BaseEventSource.signalError"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 78,
+								"id": 79,
 								"name": "BaseEventSource.signalError"
 							}
 						},
 						{
-							"id": 224,
+							"id": 225,
 							"name": "signalEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5633,7 +5656,7 @@
 							],
 							"signatures": [
 								{
-									"id": 225,
+									"id": 226,
 									"name": "signalEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5648,7 +5671,7 @@
 									},
 									"parameters": [
 										{
-											"id": 226,
+											"id": 227,
 											"name": "_event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5666,19 +5689,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 85,
+										"id": 86,
 										"name": "BaseEventSource.signalEvent"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 84,
+								"id": 85,
 								"name": "BaseEventSource.signalEvent"
 							}
 						},
 						{
-							"id": 221,
+							"id": 222,
 							"name": "signalMessage",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5695,7 +5718,7 @@
 							],
 							"signatures": [
 								{
-									"id": 222,
+									"id": 223,
 									"name": "signalMessage",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5710,7 +5733,7 @@
 									},
 									"parameters": [
 										{
-											"id": 223,
+											"id": 224,
 											"name": "_event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5728,19 +5751,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 82,
+										"id": 83,
 										"name": "BaseEventSource.signalMessage"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 81,
+								"id": 82,
 								"name": "BaseEventSource.signalMessage"
 							}
 						},
 						{
-							"id": 216,
+							"id": 217,
 							"name": "signalOpen",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5757,7 +5780,7 @@
 							],
 							"signatures": [
 								{
-									"id": 217,
+									"id": 218,
 									"name": "signalOpen",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5778,14 +5801,14 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 77,
+										"id": 78,
 										"name": "BaseEventSource.signalOpen"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 76,
+								"id": 77,
 								"name": "BaseEventSource.signalOpen"
 							}
 						}
@@ -5794,44 +5817,44 @@
 						{
 							"title": "Constructors",
 							"children": [
-								183
+								184
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								187,
+								188,
+								192,
+								203,
+								199,
+								195,
 								191,
-								202,
-								198,
-								194,
-								190,
-								182,
-								180,
-								181
+								183,
+								181,
+								182
 							]
 						},
 						{
 							"title": "Accessors",
 							"children": [
-								192
+								193
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								233,
-								188,
-								206,
-								238,
-								214,
-								227,
-								208,
-								241,
-								218,
-								224,
-								221,
-								216
+								234,
+								189,
+								207,
+								239,
+								215,
+								228,
+								209,
+								242,
+								219,
+								225,
+								222,
+								217
 							]
 						}
 					],
@@ -5846,13 +5869,13 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 41,
+							"id": 42,
 							"name": "BaseEventSource"
 						}
 					]
 				},
 				{
-					"id": 176,
+					"id": 177,
 					"name": "EventSourceInitDict",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -5871,14 +5894,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 177,
+									"id": 178,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 178,
+											"id": 179,
 											"name": "dispatcher",
 											"kind": 1024,
 											"kindString": "Property",
@@ -5905,7 +5928,7 @@
 										{
 											"title": "Properties",
 											"children": [
-												178
+												179
 											]
 										}
 									],
@@ -5984,13 +6007,13 @@
 				{
 					"title": "Classes",
 					"children": [
-						179
+						180
 					]
 				},
 				{
 					"title": "Type Aliases",
 					"children": [
-						176
+						177
 					]
 				}
 			],
@@ -6008,18 +6031,18 @@
 		{
 			"title": "References",
 			"children": [
-				246,
-				247
+				247,
+				248
 			]
 		},
 		{
 			"title": "Namespaces",
 			"children": [
-				32,
-				106,
+				33,
+				107,
 				1,
 				28,
-				175
+				176
 			]
 		}
 	],
