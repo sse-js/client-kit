@@ -12,7 +12,7 @@ import {
   onlyEvent,
   whatWgExample1,
   whatWgExample2,
-} from './fixtures/files';
+} from './_fixtures/files';
 
 test('createEventStreamTransform returns a transform', async () => {
   const parser = createEventStreamTransform();

@@ -1,7 +1,7 @@
 import { test, expect } from 'vitest';
 import { createReadStream } from 'node:fs';
 import { eventStreamReader } from '../src/eventStreamReader';
-import { full } from './fixtures/files';
+import { full } from './_fixtures/files';
 
 test('eventStreamReader - test file', async () => {
   const stream = createReadStream(full, {

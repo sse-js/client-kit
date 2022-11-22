@@ -18,15 +18,19 @@ export type EventSourceInitDict = { dispatcher?: Dispatcher } & Omit<
 export class EventSource extends BaseEventSource {
   constructor(url: string, eventSourceInitDict: EventSourceInitDict = {}) {
     super(url);
+    this.#eventSourceInitDict = eventSourceInitDict;
+    this.init(url);
+  }
 
-    if (eventSourceInitDict.headers === undefined)
-      eventSourceInitDict.headers = {};
+  protected init(url: string): void {
+    if (this.#eventSourceInitDict.headers === undefined)
+      this.#eventSourceInitDict.headers = {};
 
     // @ts-expect-error
-    Object.assign(eventSourceInitDict.headers, EVENT_STREAM_HEADERS);
+    Object.assign(this.#eventSourceInitDict.headers, EVENT_STREAM_HEADERS);
 
     undici
-      .request(url, eventSourceInitDict)
+      .request(url, this.#eventSourceInitDict)
       .then(responseData => {
         this.#responseBody = responseData.body;
 
@@ -41,10 +45,15 @@ export class EventSource extends BaseEventSource {
         const stream = responseData.body.pipe(createEventStreamTransform());
         this.initStreamAdaptor(stream, this.cleaning);
       })
-      .catch(this.signalError);
+      .catch(error => {
+        this.signalError(error);
+        setTimeout(() => this.init(url), this.#reconnectionTime);
+      });
   }
 
   // implementation
+  #reconnectionTime: number = 3000;
+  #eventSourceInitDict: EventSourceInitDict;
   #responseBody?: BodyReadable;
 
   protected readonly cleaning = (): void => {

@@ -11,21 +11,23 @@ import { BaseEventSource, EVENT_STREAM_HEADERS } from '../BaseEventSource.js';
 export class EventSource extends BaseEventSource {
   constructor(url: string, eventSourceInitDict: https.RequestOptions = {}) {
     super(url);
+    this.#eventSourceInitDict = eventSourceInitDict;
+    this.init(url);
+  }
 
-    if (eventSourceInitDict.headers === undefined)
-      eventSourceInitDict.headers = {};
-    Object.assign(eventSourceInitDict.headers, EVENT_STREAM_HEADERS);
+  protected init(url: string): void {
+    if (this.#eventSourceInitDict.headers === undefined)
+      this.#eventSourceInitDict.headers = {};
+    Object.assign(this.#eventSourceInitDict.headers, EVENT_STREAM_HEADERS);
 
     const wgUrl = new URL(url);
-    this.#request = (wgUrl.protocol === 'https:' ? https : http).request(
-      url,
-      eventSourceInitDict,
-      response => {
+    this.#request = (wgUrl.protocol === 'https:' ? https : http)
+      .request(url, this.#eventSourceInitDict, response => {
         this.#response = response;
 
         if (!this.isValidResponse(response)) {
           this.handleInvalidResponse();
-          this.cleaning();
+          this.init(url);
           return;
         }
 
@@ -33,11 +35,16 @@ export class EventSource extends BaseEventSource {
 
         const stream = response.pipe(createEventStreamTransform());
         this.initStreamAdaptor(stream, this.cleaning);
-      },
-    );
+      })
+      .on('error', error => {
+        this.signalError(error);
+        setTimeout(() => this.init(url), this.#reconnectionTime);
+      });
   }
 
   // implementation
+  #reconnectionTime: number = 3000;
+  #eventSourceInitDict: https.RequestOptions;
   #request?: http.ClientRequest;
   #response?: http.IncomingMessage;
 

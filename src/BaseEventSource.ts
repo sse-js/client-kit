@@ -74,6 +74,11 @@ export abstract class BaseEventSource extends EventTarget {
 
   /**
    * MUST be implemented by child class
+   */
+  protected abstract init(url: string): void;
+
+  /**
+   * MUST be implemented by child class
    *
    * @example
    * ```ts
@@ -185,8 +190,7 @@ export abstract class BaseEventSource extends EventTarget {
   ): void {
     stream.on('error', error => {
       this.signalError(error);
-
-      onErrorCleanUp();
+      this.init(this.url);
     });
 
     stream.on('data', this.signalMessage);
