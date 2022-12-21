@@ -121,8 +121,6 @@ export abstract class BaseEventSource extends EventTarget {
 
     // @ts-expect-error
     event.error = error;
-    // @ts-expect-error
-    error.response = response;
 
     this._readyState = ReadyState.CLOSED;
     this.dispatchEvent(event);

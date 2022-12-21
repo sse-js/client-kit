@@ -32,6 +32,15 @@ export class EventSource extends BaseEventSource {
     undici
       .request(url, this.#eventSourceInitDict)
       .then(responseData => {
+        responseData.body.on('end', () => {
+          this.signalError(new Error('Connection closed'));
+          setTimeout(() => this.init(url), this.#reconnectionTime);
+        });
+        responseData.body.on('error', () => {
+          this.signalError(new Error('Connection closed'));
+          setTimeout(() => this.init(url), this.#reconnectionTime);
+        });
+
         this.#responseBody = responseData.body;
 
         if (!this.isValidResponse(responseData)) {
