@@ -19,7 +19,7 @@
     "url": "https://github.com/Purexo/EventStream"
   },
   "scripts": {
-    "start": "npm run build && node dist/test.js",
+    "start": "npm run test",
     "build": "tsc",
     "lint": "eslint .",
     "check-types": "tsc --noEmit",

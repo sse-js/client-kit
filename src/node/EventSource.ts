@@ -1,11 +1,7 @@
 import * as http from 'node:http';
 import * as https from 'node:https';
 import { createEventStreamTransform } from '../eventStreamParser.js';
-import {
-  BaseEventSource,
-  EVENT_STREAM_HEADERS,
-  ReadyState,
-} from '../BaseEventSource.js';
+import { BaseEventSource, EVENT_STREAM_HEADERS } from '../BaseEventSource.js';
 
 /**
  * polyfill of browser EventSource relying on Node EventTarget,

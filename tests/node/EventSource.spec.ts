@@ -21,13 +21,13 @@ test('EventSource correctly fetchs datas', async () => {
 
   await new Promise<void>((resolve, reject) => {
     server.on('error', reject);
-    server.listen(8080, () => {
+    server.listen(8081, () => {
       resolve();
     });
   });
 
   await new Promise<void>(resolve => {
-    const es = new EventSource('http://localhost:8080/');
+    const es = new EventSource('http://localhost:8081/');
 
     const updates: Event[] = [];
     es.addEventListener('update', event => {
