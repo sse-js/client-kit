@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "author": "Purexo",
-  "license": "GNU GPL 3",
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "exports": {
