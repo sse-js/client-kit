@@ -6,33 +6,77 @@
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.js",
-    "./Parser": "./dist/eventStreamParser.js",
-    "./Reader": "./dist/eventStreamReader.js",
-    "./BaseEventSource": "./dist/BaseEventSource.js",
-    "./Node": "./dist/node/EventSource.js",
-    "./Undici": "./dist/undici/EventSource.js"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist-cjs/index.js",
+      "default":  "./dist/index.js"
+    },
+    "./package.json": "./package.json",
+    "./Parser": {
+      "types": "./dist/eventStreamParser.d.ts",
+      "require": "./dist-cjs/eventStreamParser.js",
+      "default": "./dist/eventStreamParser.js"
+    },
+    "./Reader": {
+      "types": "./dist/eventStreamReader.d.ts",
+      "require": "./dist-cjs/eventStreamReader.js",
+      "default": "./dist/eventStreamReader.js"
+    },
+    "./BaseEventSource": {
+      "types": "./dist/BaseEventSource.d.ts",
+      "require": "./dist-cjs/BaseEventSource.js",
+      "default": "./dist/BaseEventSource.js"
+    },
+    "./Node": {
+      "types": "./dist/node/EventSource.d.ts",
+      "require": "./dist-cjs/node/EventSource.js",
+      "default": "./dist/node/EventSource.js"
+    },
+    "./Undici": {
+      "types": "./dist/undici/EventSource.d.ts",
+      "require": "./dist-cjs/undici/EventSource.js",
+      "default": "./dist/undici/EventSource.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "Parser": [
+        "dist/eventStreamParser.d.ts"
+      ],
+      "Reader": [
+        "dist/eventStreamReader.d.ts"
+      ],
+      "BaseEventSource": [
+        "dist/BaseEventSource.d.ts"
+      ],
+      "Node": [
+        "dist/node/EventSource.d.ts"
+      ],
+      "Undici": [
+        "dist/undici/EventSource.d.ts"
+      ]
+    }
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Purexo/EventStream"
   },
   "scripts": {
+    "clean": "rimraf ./dist ./dist-cjs",
     "start": "npm run test",
-    "build": "tsc",
+    "prebuild": "npm run clean",
+    "build": "tsc -p . && tsc -p ./tsconfig.cjs.json && tsconfig-to-dual-package ./tsconfig.json ./tsconfig.cjs.json",
     "lint": "eslint .",
     "check-types": "tsc --noEmit",
-    "test": "npm run lint && npm run check-types && npm run test-only",
-    "test-only": "vitest run"
+    "pretest": "npm run lint && npm run check-types",
+    "test": "npm run test-only",
+    "test-only": "vitest run",
+    "prepublishOnly": "npm run test && npm run build"
   },
-  "peerDependencies": {
+  "dependencies": {
     "undici": "^5.12.0"
-  },
-  "peerDependenciesMeta": {
-    "undici": {
-      "optional": true
-    }
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
@@ -45,9 +89,10 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "tsconfig-to-dual-package": "^1.1.0",
     "typedoc": "^0.23.21",
     "typescript": "4.8",
-    "undici": "^5.12.0",
     "vitest": "^0.25.2"
   },
   "volta": {
@@ -74,7 +119,7 @@
       "prettier"
     ],
     "parserOptions": {
-      "project": "./tsconfig.json"
+      "project": "./tsconfig.test.json"
     },
     "rules": {
       "prettier/prettier": "error",
