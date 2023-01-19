@@ -1,22 +1,45 @@
 {
-  "name": "eventstream",
+  "name": "@sse-js/client-kit",
   "version": "0.0.1",
-  "description": "",
+  "description": "Parser / Reader `text/event-stream` and implement `EventSource`",
+  "private": false,
   "author": "Purexo",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "exports": {
-    ".": "./dist/index.js",
-    "./Parser": "./dist/eventStreamParser.js",
-    "./Reader": "./dist/eventStreamReader.js",
-    "./BaseEventSource": "./dist/BaseEventSource.js",
-    "./Node": "./dist/node/EventSource.js",
-    "./Undici": "./dist/undici/EventSource.js"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default":  "./dist/index.js"
+    },
+    "./package.json": "./package.json",
+    "./Parser": {
+      "types": "./dist/eventStreamParser.d.ts",
+      "default": "./dist/eventStreamParser.js"
+    },
+    "./Reader": {
+      "types": "./dist/eventStreamReader.d.ts",
+      "default": "./dist/eventStreamReader.js"
+    },
+    "./BaseEventSource": {
+      "types": "./dist/BaseEventSource.d.ts",
+      "default": "./dist/BaseEventSource.js"
+    },
+    "./Node": {
+      "types": "./dist/node/EventSource.d.ts",
+      "default": "./dist/node/EventSource.js"
+    },
+    "./Undici": {
+      "types": "./dist/undici/EventSource.d.ts",
+      "default": "./dist/undici/EventSource.js"
+    }
+  },
+  "engines": {
+    "node": ">=16"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Purexo/EventStream"
+    "url": "https://github.com/sse-js/client-kit"
   },
   "scripts": {
     "start": "npm run test",
@@ -24,7 +47,9 @@
     "lint": "eslint .",
     "check-types": "tsc --noEmit",
     "test": "npm run lint && npm run check-types && npm run test-only",
-    "test-only": "vitest run"
+    "test-only": "vitest run",
+    "doc": "typedoc",
+    "prepublishOnly": "npm run test && npm run build"
   },
   "peerDependencies": {
     "undici": "^5.12.0"
@@ -74,7 +99,7 @@
       "prettier"
     ],
     "parserOptions": {
-      "project": "./tsconfig.json"
+      "project": "./tsconfig.test.json"
     },
     "rules": {
       "prettier/prettier": "error",

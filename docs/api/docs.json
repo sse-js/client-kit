@@ -7,7 +7,7 @@
 	"originalName": "",
 	"children": [
 		{
-			"id": 247,
+			"id": 260,
 			"name": "EventSource",
 			"kind": 8388608,
 			"kindString": "Reference",
@@ -17,13 +17,13 @@
 					"fileName": "src/index.ts",
 					"line": 8,
 					"character": 9,
-					"url": "https://github.com/Purexo/EventStream/blob/main/src/index.ts#L8"
+					"url": "https://github.com/sse-js/client-kit/blob/main/src/index.ts#L8"
 				}
 			],
-			"target": 108
+			"target": 111
 		},
 		{
-			"id": 248,
+			"id": 261,
 			"name": "eventStreamReader",
 			"kind": 8388608,
 			"kindString": "Reference",
@@ -33,7 +33,7 @@
 					"fileName": "src/index.ts",
 					"line": 9,
 					"character": 9,
-					"url": "https://github.com/Purexo/EventStream/blob/main/src/index.ts#L9"
+					"url": "https://github.com/sse-js/client-kit/blob/main/src/index.ts#L9"
 				}
 			],
 			"target": 29
@@ -63,7 +63,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 7,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L7"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L7"
 								}
 							],
 							"type": {
@@ -82,7 +82,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 5,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L5"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L5"
 								}
 							],
 							"type": {
@@ -101,7 +101,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 6,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L6"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L6"
 								}
 							],
 							"type": {
@@ -125,7 +125,7 @@
 							"fileName": "src/BaseEventSource.ts",
 							"line": 4,
 							"character": 12,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L4"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L4"
 						}
 					]
 				},
@@ -173,7 +173,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "isValidResponse",
-								"target": 69
+								"target": 72
 							},
 							{
 								"kind": "text",
@@ -183,7 +183,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "handleInvalidResponse",
-								"target": 75
+								"target": 78
 							},
 							{
 								"kind": "text",
@@ -193,7 +193,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "signalOpen",
-								"target": 77
+								"target": 80
 							},
 							{
 								"kind": "text",
@@ -229,7 +229,7 @@
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "initStreamAdaptor",
-								"target": 88
+								"target": 91
 							},
 							{
 								"kind": "text",
@@ -262,7 +262,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 48,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L48"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L48"
 								}
 							],
 							"signatures": [
@@ -314,7 +314,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 60,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L60"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L60"
 								}
 							],
 							"type": {
@@ -344,7 +344,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 68,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L68"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L68"
 								}
 							],
 							"type": {
@@ -367,7 +367,7 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 68,
 													"character": 19,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L68"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L68"
 												}
 											],
 											"signatures": [
@@ -416,7 +416,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 67,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L67"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L67"
 								}
 							],
 							"type": {
@@ -439,7 +439,7 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 67,
 													"character": 21,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L67"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L67"
 												}
 											],
 											"signatures": [
@@ -488,7 +488,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 66,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L66"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L66"
 								}
 							],
 							"type": {
@@ -511,7 +511,7 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 66,
 													"character": 18,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L66"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L66"
 												}
 											],
 											"signatures": [
@@ -561,7 +561,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 54,
 									"character": 18,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L54"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L54"
 								}
 							],
 							"type": {
@@ -584,7 +584,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 59,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L59"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L59"
 								}
 							],
 							"type": {
@@ -609,7 +609,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 57,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L57"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L57"
 								}
 							],
 							"type": {
@@ -634,7 +634,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 58,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L58"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L58"
 								}
 							],
 							"type": {
@@ -657,7 +657,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 61,
 									"character": 13,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L61"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L61"
 								}
 							],
 							"getSignature": {
@@ -682,7 +682,7 @@
 							}
 						},
 						{
-							"id": 94,
+							"id": 97,
 							"name": "addEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -691,14 +691,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
 									"line": 63,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 95,
+									"id": 98,
 									"name": "addEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -827,7 +827,7 @@
 									},
 									"parameters": [
 										{
-											"id": 96,
+											"id": 99,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -840,7 +840,7 @@
 											}
 										},
 										{
-											"id": 97,
+											"id": 100,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -866,7 +866,7 @@
 											}
 										},
 										{
-											"id": 98,
+											"id": 101,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -907,7 +907,7 @@
 							}
 						},
 						{
-							"id": 67,
+							"id": 70,
 							"name": "cleaning",
 							"kind": 2048,
 							"kindString": "Method",
@@ -918,14 +918,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 88,
+									"line": 93,
 									"character": 21,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L88"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L93"
 								}
 							],
 							"signatures": [
 								{
-									"id": 68,
+									"id": 71,
 									"name": "cleaning",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -969,7 +969,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 70,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L70"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L70"
 								}
 							],
 							"signatures": [
@@ -987,7 +987,7 @@
 							]
 						},
 						{
-							"id": 99,
+							"id": 102,
 							"name": "dispatchEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -996,14 +996,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
 									"line": 69,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 100,
+									"id": 103,
 									"name": "dispatchEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1020,7 +1020,7 @@
 									},
 									"parameters": [
 										{
-											"id": 101,
+											"id": 104,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1051,7 +1051,7 @@
 							}
 						},
 						{
-							"id": 75,
+							"id": 78,
 							"name": "handleInvalidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1061,14 +1061,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 113,
+									"line": 118,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L113"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L118"
 								}
 							],
 							"signatures": [
 								{
-									"id": 76,
+									"id": 79,
 									"name": "handleInvalidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1091,7 +1091,59 @@
 							]
 						},
 						{
-							"id": 88,
+							"id": 67,
+							"name": "init",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true,
+								"isAbstract": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 78,
+									"character": 21,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L78"
+								}
+							],
+							"signatures": [
+								{
+									"id": 68,
+									"name": "init",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "MUST be implemented by child class"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 69,
+											"name": "url",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 91,
 							"name": "initStreamAdaptor",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1101,14 +1153,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 182,
+									"line": 185,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L182"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L185"
 								}
 							],
 							"signatures": [
 								{
-									"id": 89,
+									"id": 92,
 									"name": "initStreamAdaptor",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1125,7 +1177,7 @@
 									},
 									"parameters": [
 										{
-											"id": 90,
+											"id": 93,
 											"name": "stream",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1137,7 +1189,7 @@
 											}
 										},
 										{
-											"id": 91,
+											"id": 94,
 											"name": "onErrorCleanUp",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1145,7 +1197,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 92,
+													"id": 95,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -1153,14 +1205,14 @@
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 184,
+															"line": 187,
 															"character": 20,
-															"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L184"
+															"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L187"
 														}
 													],
 													"signatures": [
 														{
-															"id": 93,
+															"id": 96,
 															"name": "__type",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -1183,7 +1235,7 @@
 							]
 						},
 						{
-							"id": 69,
+							"id": 72,
 							"name": "isValidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1193,14 +1245,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 99,
+									"line": 104,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L99"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L104"
 								}
 							],
 							"signatures": [
 								{
-									"id": 70,
+									"id": 73,
 									"name": "isValidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1217,7 +1269,7 @@
 									},
 									"parameters": [
 										{
-											"id": 71,
+											"id": 74,
 											"name": "response",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1225,14 +1277,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 72,
+													"id": 75,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 74,
+															"id": 77,
 															"name": "headers",
 															"kind": 1024,
 															"kindString": "Property",
@@ -1242,9 +1294,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 101,
+																	"line": 106,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L101"
+																	"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L106"
 																}
 															],
 															"type": {
@@ -1255,7 +1307,7 @@
 															}
 														},
 														{
-															"id": 73,
+															"id": 76,
 															"name": "statusCode",
 															"kind": 1024,
 															"kindString": "Property",
@@ -1265,9 +1317,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 100,
+																	"line": 105,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L100"
+																	"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L105"
 																}
 															],
 															"type": {
@@ -1280,17 +1332,17 @@
 														{
 															"title": "Properties",
 															"children": [
-																74,
-																73
+																77,
+																76
 															]
 														}
 													],
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 99,
+															"line": 104,
 															"character": 38,
-															"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L99"
+															"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L104"
 														}
 													]
 												}
@@ -1305,7 +1357,7 @@
 							]
 						},
 						{
-							"id": 102,
+							"id": 105,
 							"name": "removeEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1314,14 +1366,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
 									"line": 71,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 103,
+									"id": 106,
 									"name": "removeEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1338,7 +1390,7 @@
 									},
 									"parameters": [
 										{
-											"id": 104,
+											"id": 107,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1351,7 +1403,7 @@
 											}
 										},
 										{
-											"id": 105,
+											"id": 108,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1377,7 +1429,7 @@
 											}
 										},
 										{
-											"id": 106,
+											"id": 109,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1418,7 +1470,7 @@
 							}
 						},
 						{
-							"id": 79,
+							"id": 82,
 							"name": "signalError",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1428,14 +1480,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 140,
+									"line": 143,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L140"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L143"
 								}
 							],
 							"signatures": [
 								{
-									"id": 80,
+									"id": 83,
 									"name": "signalError",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1450,7 +1502,7 @@
 									},
 									"parameters": [
 										{
-											"id": 81,
+											"id": 84,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1471,7 +1523,7 @@
 							]
 						},
 						{
-							"id": 85,
+							"id": 88,
 							"name": "signalEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1481,14 +1533,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 166,
+									"line": 169,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L166"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L169"
 								}
 							],
 							"signatures": [
 								{
-									"id": 86,
+									"id": 89,
 									"name": "signalEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1498,6 +1550,58 @@
 											{
 												"kind": "text",
 												"text": "Check if IEvent is named (prop event: string)\nDispatch it"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 90,
+											"name": "_event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 13,
+												"name": "IEvent"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 85,
+							"name": "signalMessage",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 156,
+									"character": 12,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L156"
+								}
+							],
+							"signatures": [
+								{
+									"id": 86,
+									"name": "signalMessage",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Dispatch a message with an IEvent\nand try to dispatch named event from message event"
 											}
 										]
 									},
@@ -1523,59 +1627,7 @@
 							]
 						},
 						{
-							"id": 82,
-							"name": "signalMessage",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isProtected": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 153,
-									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L153"
-								}
-							],
-							"signatures": [
-								{
-									"id": 83,
-									"name": "signalMessage",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "Dispatch a message with an IEvent\nand try to dispatch named event from message event"
-											}
-										]
-									},
-									"parameters": [
-										{
-											"id": 84,
-											"name": "_event",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reference",
-												"id": 13,
-												"name": "IEvent"
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							]
-						},
-						{
-							"id": 77,
+							"id": 80,
 							"name": "signalOpen",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1585,14 +1637,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 130,
+									"line": 133,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L130"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L133"
 								}
 							],
 							"signatures": [
 								{
-									"id": 78,
+									"id": 81,
 									"name": "signalOpen",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1644,18 +1696,19 @@
 						{
 							"title": "Methods",
 							"children": [
-								94,
-								67,
+								97,
+								70,
 								65,
-								99,
-								75,
-								88,
-								69,
 								102,
-								79,
-								85,
+								78,
+								67,
+								91,
+								72,
+								105,
 								82,
-								77
+								88,
+								85,
+								80
 							]
 						}
 					],
@@ -1664,7 +1717,7 @@
 							"fileName": "src/BaseEventSource.ts",
 							"line": 43,
 							"character": 22,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L43"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L43"
 						}
 					],
 					"extendedTypes": [
@@ -1678,12 +1731,12 @@
 					"extendedBy": [
 						{
 							"type": "reference",
-							"id": 108,
+							"id": 111,
 							"name": "EventSource"
 						},
 						{
 							"type": "reference",
-							"id": 180,
+							"id": 188,
 							"name": "EventSource"
 						}
 					]
@@ -1701,7 +1754,7 @@
 							"fileName": "src/BaseEventSource.ts",
 							"line": 10,
 							"character": 13,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L10"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L10"
 						}
 					],
 					"type": {
@@ -1727,7 +1780,7 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 12,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L12"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L12"
 												}
 											],
 											"type": {
@@ -1747,7 +1800,7 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 11,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L11"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L11"
 												}
 											],
 											"type": {
@@ -1771,7 +1824,7 @@
 											"fileName": "src/BaseEventSource.ts",
 											"line": 10,
 											"character": 50,
-											"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L10"
+											"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L10"
 										}
 									]
 								}
@@ -1809,19 +1862,19 @@
 					"fileName": "src/BaseEventSource.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L1"
+					"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 107,
+			"id": 110,
 			"name": "Node",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 108,
+					"id": 111,
 					"name": "EventSource",
 					"kind": 128,
 					"kindString": "Class",
@@ -1836,7 +1889,7 @@
 					},
 					"children": [
 						{
-							"id": 112,
+							"id": 115,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -1846,19 +1899,19 @@
 									"fileName": "src/node/EventSource.ts",
 									"line": 12,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/node/EventSource.ts#L12"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L12"
 								}
 							],
 							"signatures": [
 								{
-									"id": 113,
+									"id": 116,
 									"name": "new EventSource",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 114,
+											"id": 117,
 											"name": "url",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1869,7 +1922,7 @@
 											}
 										},
 										{
-											"id": 115,
+											"id": 118,
 											"name": "eventSourceInitDict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1885,7 +1938,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 108,
+										"id": 111,
 										"name": "EventSource"
 									},
 									"overwrites": {
@@ -1902,7 +1955,52 @@
 							}
 						},
 						{
-							"id": 116,
+							"id": 123,
+							"name": "#eventSourceInitDict",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "src/node/EventSource.ts",
+									"line": 51,
+									"character": 2,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L51"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "RequestOptions",
+								"qualifiedName": "RequestOptions",
+								"package": "@types/node"
+							}
+						},
+						{
+							"id": 122,
+							"name": "#reconnectionTime",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "src/node/EventSource.ts",
+									"line": 50,
+									"character": 2,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L50"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "3000"
+						},
+						{
+							"id": 124,
 							"name": "#request",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1913,9 +2011,9 @@
 							"sources": [
 								{
 									"fileName": "src/node/EventSource.ts",
-									"line": 41,
+									"line": 52,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/node/EventSource.ts#L41"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L52"
 								}
 							],
 							"type": {
@@ -1926,7 +2024,7 @@
 							}
 						},
 						{
-							"id": 117,
+							"id": 125,
 							"name": "#response",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1937,9 +2035,9 @@
 							"sources": [
 								{
 									"fileName": "src/node/EventSource.ts",
-									"line": 42,
+									"line": 53,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/node/EventSource.ts#L42"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L53"
 								}
 							],
 							"type": {
@@ -1950,7 +2048,7 @@
 							}
 						},
 						{
-							"id": 121,
+							"id": 129,
 							"name": "_readyState",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1962,7 +2060,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 60,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L60"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L60"
 								}
 							],
 							"type": {
@@ -1985,7 +2083,7 @@
 							}
 						},
 						{
-							"id": 132,
+							"id": 140,
 							"name": "onerror",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1997,7 +2095,161 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 68,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L68"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L68"
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 141,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "src/BaseEventSource.ts",
+													"line": 68,
+													"character": 19,
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L68"
+												}
+											],
+											"signatures": [
+												{
+													"id": 142,
+													"name": "__type",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 143,
+															"name": "event",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Event",
+																"qualifiedName": "global.Event",
+																"package": "@types/node"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "void"
+													}
+												}
+											]
+										}
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 61,
+								"name": "BaseEventSource.onerror"
+							}
+						},
+						{
+							"id": 136,
+							"name": "onmessage",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 67,
+									"character": 9,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L67"
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "undefined"
+									},
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 137,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "src/BaseEventSource.ts",
+													"line": 67,
+													"character": 21,
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L67"
+												}
+											],
+											"signatures": [
+												{
+													"id": 138,
+													"name": "__type",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"parameters": [
+														{
+															"id": 139,
+															"name": "event",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {},
+															"type": {
+																"type": "reference",
+																"name": "Event",
+																"qualifiedName": "global.Event",
+																"package": "@types/node"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "void"
+													}
+												}
+											]
+										}
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 57,
+								"name": "BaseEventSource.onmessage"
+							}
+						},
+						{
+							"id": 132,
+							"name": "onopen",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 66,
+									"character": 9,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L66"
 								}
 							],
 							"type": {
@@ -2018,9 +2270,9 @@
 											"sources": [
 												{
 													"fileName": "src/BaseEventSource.ts",
-													"line": 68,
-													"character": 19,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L68"
+													"line": 66,
+													"character": 18,
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L66"
 												}
 											],
 											"signatures": [
@@ -2057,166 +2309,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 61,
-								"name": "BaseEventSource.onerror"
-							}
-						},
-						{
-							"id": 128,
-							"name": "onmessage",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isPublic": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 67,
-									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L67"
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "reflection",
-										"declaration": {
-											"id": 129,
-											"name": "__type",
-											"kind": 65536,
-											"kindString": "Type literal",
-											"flags": {},
-											"sources": [
-												{
-													"fileName": "src/BaseEventSource.ts",
-													"line": 67,
-													"character": 21,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L67"
-												}
-											],
-											"signatures": [
-												{
-													"id": 130,
-													"name": "__type",
-													"kind": 4096,
-													"kindString": "Call signature",
-													"flags": {},
-													"parameters": [
-														{
-															"id": 131,
-															"name": "event",
-															"kind": 32768,
-															"kindString": "Parameter",
-															"flags": {},
-															"type": {
-																"type": "reference",
-																"name": "Event",
-																"qualifiedName": "global.Event",
-																"package": "@types/node"
-															}
-														}
-													],
-													"type": {
-														"type": "intrinsic",
-														"name": "void"
-													}
-												}
-											]
-										}
-									}
-								]
-							},
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 57,
-								"name": "BaseEventSource.onmessage"
-							}
-						},
-						{
-							"id": 124,
-							"name": "onopen",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isPublic": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 66,
-									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L66"
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "undefined"
-									},
-									{
-										"type": "reflection",
-										"declaration": {
-											"id": 125,
-											"name": "__type",
-											"kind": 65536,
-											"kindString": "Type literal",
-											"flags": {},
-											"sources": [
-												{
-													"fileName": "src/BaseEventSource.ts",
-													"line": 66,
-													"character": 18,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L66"
-												}
-											],
-											"signatures": [
-												{
-													"id": 126,
-													"name": "__type",
-													"kind": 4096,
-													"kindString": "Call signature",
-													"flags": {},
-													"parameters": [
-														{
-															"id": 127,
-															"name": "event",
-															"kind": 32768,
-															"kindString": "Parameter",
-															"flags": {},
-															"type": {
-																"type": "reference",
-																"name": "Event",
-																"qualifiedName": "global.Event",
-																"package": "@types/node"
-															}
-														}
-													],
-													"type": {
-														"type": "intrinsic",
-														"name": "void"
-													}
-												}
-											]
-										}
-									}
-								]
-							},
-							"inheritedFrom": {
-								"type": "reference",
 								"id": 53,
 								"name": "BaseEventSource.onopen"
 							}
 						},
 						{
-							"id": 120,
+							"id": 128,
 							"name": "url",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2229,7 +2327,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 54,
 									"character": 18,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L54"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L54"
 								}
 							],
 							"type": {
@@ -2243,7 +2341,7 @@
 							}
 						},
 						{
-							"id": 111,
+							"id": 114,
 							"name": "CLOSED",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2257,7 +2355,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 59,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L59"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L59"
 								}
 							],
 							"type": {
@@ -2273,7 +2371,7 @@
 							}
 						},
 						{
-							"id": 109,
+							"id": 112,
 							"name": "CONNECTING",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2287,7 +2385,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 57,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L57"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L57"
 								}
 							],
 							"type": {
@@ -2303,7 +2401,7 @@
 							}
 						},
 						{
-							"id": 110,
+							"id": 113,
 							"name": "OPEN",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2317,7 +2415,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 58,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L58"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L58"
 								}
 							],
 							"type": {
@@ -2333,7 +2431,7 @@
 							}
 						},
 						{
-							"id": 122,
+							"id": 130,
 							"name": "readyState",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -2345,11 +2443,11 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 61,
 									"character": 13,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L61"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L61"
 								}
 							],
 							"getSignature": {
-								"id": 123,
+								"id": 131,
 								"name": "readyState",
 								"kind": 524288,
 								"kindString": "Get signature",
@@ -2379,7 +2477,7 @@
 							}
 						},
 						{
-							"id": 163,
+							"id": 171,
 							"name": "addEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2388,14 +2486,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
 									"line": 63,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 164,
+									"id": 172,
 									"name": "addEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2519,571 +2617,6 @@
 											{
 												"kind": "text",
 												"text": "."
-											}
-										]
-									},
-									"parameters": [
-										{
-											"id": 165,
-											"name": "type",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isExternal": true
-											},
-											"type": {
-												"type": "intrinsic",
-												"name": "string"
-											}
-										},
-										{
-											"id": 166,
-											"name": "listener",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isExternal": true
-											},
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "reference",
-														"name": "EventListener",
-														"qualifiedName": "EventListener",
-														"package": "@types/node"
-													},
-													{
-														"type": "reference",
-														"name": "EventListenerObject",
-														"qualifiedName": "EventListenerObject",
-														"package": "@types/node"
-													}
-												]
-											}
-										},
-										{
-											"id": 167,
-											"name": "options",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isExternal": true,
-												"isOptional": true
-											},
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "intrinsic",
-														"name": "boolean"
-													},
-													{
-														"type": "reference",
-														"name": "AddEventListenerOptions",
-														"qualifiedName": "AddEventListenerOptions",
-														"package": "@types/node"
-													}
-												]
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 95,
-										"name": "BaseEventSource.addEventListener"
-									}
-								}
-							],
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 94,
-								"name": "BaseEventSource.addEventListener"
-							}
-						},
-						{
-							"id": 118,
-							"name": "cleaning",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isProtected": true,
-								"isReadonly": true
-							},
-							"sources": [
-								{
-									"fileName": "src/node/EventSource.ts",
-									"line": 44,
-									"character": 21,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/node/EventSource.ts#L44"
-								}
-							],
-							"signatures": [
-								{
-									"id": 119,
-									"name": "cleaning",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "MUST be implemented by child class"
-											}
-										],
-										"blockTags": [
-											{
-												"tag": "@example",
-												"content": [
-													{
-														"kind": "code",
-														"text": "```ts\nprotected cleaning() {\n  // clean resources\n  // ex\n  this.#request?.destroy();\n  this.#request = undefined;\n}\n```"
-													}
-												]
-											}
-										]
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									},
-									"overwrites": {
-										"type": "reference",
-										"id": 68,
-										"name": "BaseEventSource.cleaning"
-									}
-								}
-							],
-							"overwrites": {
-								"type": "reference",
-								"id": 67,
-								"name": "BaseEventSource.cleaning"
-							}
-						},
-						{
-							"id": 136,
-							"name": "close",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isPublic": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 70,
-									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L70"
-								}
-							],
-							"signatures": [
-								{
-									"id": 137,
-									"name": "close",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 66,
-										"name": "BaseEventSource.close"
-									}
-								}
-							],
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 65,
-								"name": "BaseEventSource.close"
-							}
-						},
-						{
-							"id": 168,
-							"name": "dispatchEvent",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
-									"line": 69,
-									"character": 4
-								}
-							],
-							"signatures": [
-								{
-									"id": 169,
-									"name": "dispatchEvent",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"isExternal": true
-									},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "Dispatches a synthetic event event to target and returns true if either event's cancelable attribute value is false or its preventDefault() method was not invoked, and false otherwise."
-											}
-										]
-									},
-									"parameters": [
-										{
-											"id": 170,
-											"name": "event",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isExternal": true
-											},
-											"type": {
-												"type": "reference",
-												"name": "Event",
-												"qualifiedName": "global.Event",
-												"package": "@types/node"
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 100,
-										"name": "BaseEventSource.dispatchEvent"
-									}
-								}
-							],
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 99,
-								"name": "BaseEventSource.dispatchEvent"
-							}
-						},
-						{
-							"id": 144,
-							"name": "handleInvalidResponse",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isProtected": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 113,
-									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L113"
-								}
-							],
-							"signatures": [
-								{
-									"id": 145,
-									"name": "handleInvalidResponse",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"isProtected": true
-									},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "build an error attach to an event error and dispatch the event"
-											}
-										]
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 76,
-										"name": "BaseEventSource.handleInvalidResponse"
-									}
-								}
-							],
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 75,
-								"name": "BaseEventSource.handleInvalidResponse"
-							}
-						},
-						{
-							"id": 157,
-							"name": "initStreamAdaptor",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isProtected": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 182,
-									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L182"
-								}
-							],
-							"signatures": [
-								{
-									"id": 158,
-									"name": "initStreamAdaptor",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"isProtected": true
-									},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "- listen error on stream to signal in EventTarget way\n- listen on data on stream to signal it EventTarget way\n  (message, named event)"
-											}
-										]
-									},
-									"parameters": [
-										{
-											"id": 159,
-											"name": "stream",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reference",
-												"id": 18,
-												"name": "TransformParser"
-											}
-										},
-										{
-											"id": 160,
-											"name": "onErrorCleanUp",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reflection",
-												"declaration": {
-													"id": 161,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {},
-													"sources": [
-														{
-															"fileName": "src/BaseEventSource.ts",
-															"line": 184,
-															"character": 20,
-															"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L184"
-														}
-													],
-													"signatures": [
-														{
-															"id": 162,
-															"name": "__type",
-															"kind": 4096,
-															"kindString": "Call signature",
-															"flags": {},
-															"type": {
-																"type": "intrinsic",
-																"name": "void"
-															}
-														}
-													]
-												}
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 89,
-										"name": "BaseEventSource.initStreamAdaptor"
-									}
-								}
-							],
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 88,
-								"name": "BaseEventSource.initStreamAdaptor"
-							}
-						},
-						{
-							"id": 138,
-							"name": "isValidResponse",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isProtected": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 99,
-									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L99"
-								}
-							],
-							"signatures": [
-								{
-									"id": 139,
-									"name": "isValidResponse",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"isProtected": true
-									},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "Check if response 200 or Content-Type is text/event-stream"
-											}
-										]
-									},
-									"parameters": [
-										{
-											"id": 140,
-											"name": "response",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reflection",
-												"declaration": {
-													"id": 141,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {},
-													"children": [
-														{
-															"id": 143,
-															"name": "headers",
-															"kind": 1024,
-															"kindString": "Property",
-															"flags": {
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "src/BaseEventSource.ts",
-																	"line": 101,
-																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L101"
-																}
-															],
-															"type": {
-																"type": "reference",
-																"name": "IncomingHttpHeaders",
-																"qualifiedName": "IncomingHttpHeaders",
-																"package": "@types/node"
-															}
-														},
-														{
-															"id": 142,
-															"name": "statusCode",
-															"kind": 1024,
-															"kindString": "Property",
-															"flags": {
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "src/BaseEventSource.ts",
-																	"line": 100,
-																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L100"
-																}
-															],
-															"type": {
-																"type": "intrinsic",
-																"name": "number"
-															}
-														}
-													],
-													"groups": [
-														{
-															"title": "Properties",
-															"children": [
-																143,
-																142
-															]
-														}
-													],
-													"sources": [
-														{
-															"fileName": "src/BaseEventSource.ts",
-															"line": 99,
-															"character": 38,
-															"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L99"
-														}
-													]
-												}
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 70,
-										"name": "BaseEventSource.isValidResponse"
-									}
-								}
-							],
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 69,
-								"name": "BaseEventSource.isValidResponse"
-							}
-						},
-						{
-							"id": 171,
-							"name": "removeEventListener",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExternal": true
-							},
-							"sources": [
-								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
-									"line": 71,
-									"character": 4
-								}
-							],
-							"signatures": [
-								{
-									"id": 172,
-									"name": "removeEventListener",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {
-										"isExternal": true
-									},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "Removes the event listener in target's event listener list with the same type, callback, and options."
 											}
 										]
 									},
@@ -3145,6 +2678,632 @@
 													},
 													{
 														"type": "reference",
+														"name": "AddEventListenerOptions",
+														"qualifiedName": "AddEventListenerOptions",
+														"package": "@types/node"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 98,
+										"name": "BaseEventSource.addEventListener"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 97,
+								"name": "BaseEventSource.addEventListener"
+							}
+						},
+						{
+							"id": 126,
+							"name": "cleaning",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "src/node/EventSource.ts",
+									"line": 55,
+									"character": 21,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L55"
+								}
+							],
+							"signatures": [
+								{
+									"id": 127,
+									"name": "cleaning",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "MUST be implemented by child class"
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@example",
+												"content": [
+													{
+														"kind": "code",
+														"text": "```ts\nprotected cleaning() {\n  // clean resources\n  // ex\n  this.#request?.destroy();\n  this.#request = undefined;\n}\n```"
+													}
+												]
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 71,
+										"name": "BaseEventSource.cleaning"
+									}
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 70,
+								"name": "BaseEventSource.cleaning"
+							}
+						},
+						{
+							"id": 144,
+							"name": "close",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 70,
+									"character": 9,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L70"
+								}
+							],
+							"signatures": [
+								{
+									"id": 145,
+									"name": "close",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 66,
+										"name": "BaseEventSource.close"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 65,
+								"name": "BaseEventSource.close"
+							}
+						},
+						{
+							"id": 176,
+							"name": "dispatchEvent",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
+									"line": 69,
+									"character": 4
+								}
+							],
+							"signatures": [
+								{
+									"id": 177,
+									"name": "dispatchEvent",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExternal": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Dispatches a synthetic event event to target and returns true if either event's cancelable attribute value is false or its preventDefault() method was not invoked, and false otherwise."
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 178,
+											"name": "event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExternal": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "Event",
+												"qualifiedName": "global.Event",
+												"package": "@types/node"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 103,
+										"name": "BaseEventSource.dispatchEvent"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 102,
+								"name": "BaseEventSource.dispatchEvent"
+							}
+						},
+						{
+							"id": 152,
+							"name": "handleInvalidResponse",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 118,
+									"character": 12,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L118"
+								}
+							],
+							"signatures": [
+								{
+									"id": 153,
+									"name": "handleInvalidResponse",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isProtected": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "build an error attach to an event error and dispatch the event"
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 79,
+										"name": "BaseEventSource.handleInvalidResponse"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 78,
+								"name": "BaseEventSource.handleInvalidResponse"
+							}
+						},
+						{
+							"id": 119,
+							"name": "init",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "src/node/EventSource.ts",
+									"line": 18,
+									"character": 12,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L18"
+								}
+							],
+							"signatures": [
+								{
+									"id": 120,
+									"name": "init",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "MUST be implemented by child class"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 121,
+											"name": "url",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 68,
+										"name": "BaseEventSource.init"
+									}
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 67,
+								"name": "BaseEventSource.init"
+							}
+						},
+						{
+							"id": 165,
+							"name": "initStreamAdaptor",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 185,
+									"character": 12,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L185"
+								}
+							],
+							"signatures": [
+								{
+									"id": 166,
+									"name": "initStreamAdaptor",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isProtected": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "- listen error on stream to signal in EventTarget way\n- listen on data on stream to signal it EventTarget way\n  (message, named event)"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 167,
+											"name": "stream",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 18,
+												"name": "TransformParser"
+											}
+										},
+										{
+											"id": 168,
+											"name": "onErrorCleanUp",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 169,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "src/BaseEventSource.ts",
+															"line": 187,
+															"character": 20,
+															"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L187"
+														}
+													],
+													"signatures": [
+														{
+															"id": 170,
+															"name": "__type",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {},
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 92,
+										"name": "BaseEventSource.initStreamAdaptor"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 91,
+								"name": "BaseEventSource.initStreamAdaptor"
+							}
+						},
+						{
+							"id": 146,
+							"name": "isValidResponse",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 104,
+									"character": 12,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L104"
+								}
+							],
+							"signatures": [
+								{
+									"id": 147,
+									"name": "isValidResponse",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isProtected": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Check if response 200 or Content-Type is text/event-stream"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 148,
+											"name": "response",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 149,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 151,
+															"name": "headers",
+															"kind": 1024,
+															"kindString": "Property",
+															"flags": {
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/BaseEventSource.ts",
+																	"line": 106,
+																	"character": 4,
+																	"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L106"
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "IncomingHttpHeaders",
+																"qualifiedName": "IncomingHttpHeaders",
+																"package": "@types/node"
+															}
+														},
+														{
+															"id": 150,
+															"name": "statusCode",
+															"kind": 1024,
+															"kindString": "Property",
+															"flags": {
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "src/BaseEventSource.ts",
+																	"line": 105,
+																	"character": 4,
+																	"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L105"
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"children": [
+																151,
+																150
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "src/BaseEventSource.ts",
+															"line": 104,
+															"character": 38,
+															"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L104"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 73,
+										"name": "BaseEventSource.isValidResponse"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 72,
+								"name": "BaseEventSource.isValidResponse"
+							}
+						},
+						{
+							"id": 179,
+							"name": "removeEventListener",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
+									"line": 71,
+									"character": 4
+								}
+							],
+							"signatures": [
+								{
+									"id": 180,
+									"name": "removeEventListener",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExternal": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Removes the event listener in target's event listener list with the same type, callback, and options."
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 181,
+											"name": "type",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExternal": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										},
+										{
+											"id": 182,
+											"name": "listener",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExternal": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"name": "EventListener",
+														"qualifiedName": "EventListener",
+														"package": "@types/node"
+													},
+													{
+														"type": "reference",
+														"name": "EventListenerObject",
+														"qualifiedName": "EventListenerObject",
+														"package": "@types/node"
+													}
+												]
+											}
+										},
+										{
+											"id": 183,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExternal": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "boolean"
+													},
+													{
+														"type": "reference",
 														"name": "EventListenerOptions",
 														"qualifiedName": "EventListenerOptions",
 														"package": "@types/node"
@@ -3159,19 +3318,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 103,
+										"id": 106,
 										"name": "BaseEventSource.removeEventListener"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 102,
+								"id": 105,
 								"name": "BaseEventSource.removeEventListener"
 							}
 						},
 						{
-							"id": 148,
+							"id": 156,
 							"name": "signalError",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3181,14 +3340,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 140,
+									"line": 143,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L140"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L143"
 								}
 							],
 							"signatures": [
 								{
-									"id": 149,
+									"id": 157,
 									"name": "signalError",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3203,7 +3362,7 @@
 									},
 									"parameters": [
 										{
-											"id": 150,
+											"id": 158,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3222,19 +3381,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 80,
+										"id": 83,
 										"name": "BaseEventSource.signalError"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 79,
+								"id": 82,
 								"name": "BaseEventSource.signalError"
 							}
 						},
 						{
-							"id": 154,
+							"id": 162,
 							"name": "signalEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3244,14 +3403,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 166,
+									"line": 169,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L166"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L169"
 								}
 							],
 							"signatures": [
 								{
-									"id": 155,
+									"id": 163,
 									"name": "signalEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3266,7 +3425,69 @@
 									},
 									"parameters": [
 										{
-											"id": 156,
+											"id": 164,
+											"name": "_event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 13,
+												"name": "IEvent"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 89,
+										"name": "BaseEventSource.signalEvent"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 88,
+								"name": "BaseEventSource.signalEvent"
+							}
+						},
+						{
+							"id": 159,
+							"name": "signalMessage",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 156,
+									"character": 12,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L156"
+								}
+							],
+							"signatures": [
+								{
+									"id": 160,
+									"name": "signalMessage",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Dispatch a message with an IEvent\nand try to dispatch named event from message event"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 161,
 											"name": "_event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3285,80 +3506,18 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 86,
-										"name": "BaseEventSource.signalEvent"
-									}
-								}
-							],
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 85,
-								"name": "BaseEventSource.signalEvent"
-							}
-						},
-						{
-							"id": 151,
-							"name": "signalMessage",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isProtected": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 153,
-									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L153"
-								}
-							],
-							"signatures": [
-								{
-									"id": 152,
-									"name": "signalMessage",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "Dispatch a message with an IEvent\nand try to dispatch named event from message event"
-											}
-										]
-									},
-									"parameters": [
-										{
-											"id": 153,
-											"name": "_event",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reference",
-												"id": 13,
-												"name": "IEvent"
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 83,
 										"name": "BaseEventSource.signalMessage"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 82,
+								"id": 85,
 								"name": "BaseEventSource.signalMessage"
 							}
 						},
 						{
-							"id": 146,
+							"id": 154,
 							"name": "signalOpen",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3368,14 +3527,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 130,
+									"line": 133,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L130"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L133"
 								}
 							],
 							"signatures": [
 								{
-									"id": 147,
+									"id": 155,
 									"name": "signalOpen",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3396,14 +3555,14 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 78,
+										"id": 81,
 										"name": "BaseEventSource.signalOpen"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 77,
+								"id": 80,
 								"name": "BaseEventSource.signalOpen"
 							}
 						}
@@ -3412,45 +3571,48 @@
 						{
 							"title": "Constructors",
 							"children": [
-								112
+								115
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								116,
-								117,
-								121,
+								123,
+								122,
+								124,
+								125,
+								129,
+								140,
+								136,
 								132,
 								128,
-								124,
-								120,
-								111,
-								109,
-								110
+								114,
+								112,
+								113
 							]
 						},
 						{
 							"title": "Accessors",
 							"children": [
-								122
+								130
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								163,
-								118,
-								136,
-								168,
-								144,
-								157,
-								138,
 								171,
-								148,
-								154,
-								151,
-								146
+								126,
+								144,
+								176,
+								152,
+								119,
+								165,
+								146,
+								179,
+								156,
+								162,
+								159,
+								154
 							]
 						}
 					],
@@ -3459,7 +3621,7 @@
 							"fileName": "src/node/EventSource.ts",
 							"line": 11,
 							"character": 13,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/node/EventSource.ts#L11"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L11"
 						}
 					],
 					"extendedTypes": [
@@ -3475,7 +3637,7 @@
 				{
 					"title": "Classes",
 					"children": [
-						108
+						111
 					]
 				}
 			],
@@ -3484,7 +3646,7 @@
 					"fileName": "src/node/EventSource.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/main/src/node/EventSource.ts#L1"
+					"url": "https://github.com/sse-js/client-kit/blob/main/src/node/EventSource.ts#L1"
 				}
 			]
 		},
@@ -3520,7 +3682,7 @@
 							"fileName": "src/eventStreamParser.ts",
 							"line": 12,
 							"character": 12,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L12"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L12"
 						}
 					],
 					"type": {
@@ -3556,7 +3718,7 @@
 													"fileName": "src/eventStreamParser.ts",
 													"line": 24,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L24"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L24"
 												}
 											],
 											"type": {
@@ -3588,7 +3750,7 @@
 													"fileName": "src/eventStreamParser.ts",
 													"line": 20,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L20"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L20"
 												}
 											],
 											"type": {
@@ -3617,7 +3779,7 @@
 													"fileName": "src/eventStreamParser.ts",
 													"line": 16,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L16"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L16"
 												}
 											],
 											"type": {
@@ -3641,7 +3803,7 @@
 											"fileName": "src/eventStreamParser.ts",
 											"line": 12,
 											"character": 21,
-											"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L12"
+											"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L12"
 										}
 									]
 								}
@@ -3674,9 +3836,9 @@
 					"sources": [
 						{
 							"fileName": "src/eventStreamParser.ts",
-							"line": 157,
+							"line": 159,
 							"character": 12,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L157"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L159"
 						}
 					],
 					"type": {
@@ -3706,9 +3868,9 @@
 											"sources": [
 												{
 													"fileName": "src/eventStreamParser.ts",
-													"line": 158,
+													"line": 160,
 													"character": 2,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L158"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L160"
 												}
 											],
 											"type": {
@@ -3722,9 +3884,9 @@
 													"sources": [
 														{
 															"fileName": "src/eventStreamParser.ts",
-															"line": 158,
+															"line": 160,
 															"character": 6,
-															"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L158"
+															"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L160"
 														}
 													],
 													"signatures": [
@@ -3763,9 +3925,9 @@
 																			"sources": [
 																				{
 																					"fileName": "src/eventStreamParser.ts",
-																					"line": 158,
+																					"line": 160,
 																					"character": 36,
-																					"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L158"
+																					"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L160"
 																				}
 																			],
 																			"signatures": [
@@ -3821,9 +3983,9 @@
 									"sources": [
 										{
 											"fileName": "src/eventStreamParser.ts",
-											"line": 157,
+											"line": 159,
 											"character": 42,
-											"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L157"
+											"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L159"
 										}
 									]
 								}
@@ -3840,9 +4002,9 @@
 					"sources": [
 						{
 							"fileName": "src/eventStreamParser.ts",
-							"line": 174,
+							"line": 176,
 							"character": 16,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L174"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L176"
 						}
 					],
 					"signatures": [
@@ -3909,7 +4071,7 @@
 							"fileName": "src/eventStreamParser.ts",
 							"line": 51,
 							"character": 16,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L51"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L51"
 						}
 					],
 					"signatures": [
@@ -3970,7 +4132,7 @@
 											"fileName": "src/eventStreamParser.ts",
 											"line": 51,
 											"character": 32,
-											"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L51"
+											"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L51"
 										}
 									],
 									"signatures": [
@@ -4011,7 +4173,7 @@
 																	"fileName": "src/eventStreamParser.ts",
 																	"line": 53,
 																	"character": 12,
-																	"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L53"
+																	"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L53"
 																}
 															],
 															"signatures": [
@@ -4078,7 +4240,7 @@
 					"fileName": "src/eventStreamParser.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamParser.ts#L1"
+					"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamParser.ts#L1"
 				}
 			]
 		},
@@ -4100,7 +4262,7 @@
 							"fileName": "src/eventStreamReader.ts",
 							"line": 26,
 							"character": 23,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamReader.ts#L26"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamReader.ts#L26"
 						}
 					],
 					"signatures": [
@@ -4239,19 +4401,19 @@
 					"fileName": "src/eventStreamReader.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/main/src/eventStreamReader.ts#L1"
+					"url": "https://github.com/sse-js/client-kit/blob/main/src/eventStreamReader.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 176,
+			"id": 184,
 			"name": "Undici",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 180,
+					"id": 188,
 					"name": "EventSource",
 					"kind": 128,
 					"kindString": "Class",
@@ -4266,7 +4428,7 @@
 					},
 					"children": [
 						{
-							"id": 184,
+							"id": 192,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -4276,19 +4438,19 @@
 									"fileName": "src/undici/EventSource.ts",
 									"line": 19,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/undici/EventSource.ts#L19"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L19"
 								}
 							],
 							"signatures": [
 								{
-									"id": 185,
+									"id": 193,
 									"name": "new EventSource",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 186,
+											"id": 194,
 											"name": "url",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4299,14 +4461,14 @@
 											}
 										},
 										{
-											"id": 187,
+											"id": 195,
 											"name": "eventSourceInitDict",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"id": 177,
+												"id": 185,
 												"name": "EventSourceInitDict"
 											},
 											"defaultValue": "{}"
@@ -4314,7 +4476,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 180,
+										"id": 188,
 										"name": "EventSource"
 									},
 									"overwrites": {
@@ -4331,7 +4493,51 @@
 							}
 						},
 						{
-							"id": 188,
+							"id": 200,
+							"name": "#eventSourceInitDict",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "src/undici/EventSource.ts",
+									"line": 65,
+									"character": 2,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L65"
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 185,
+								"name": "EventSourceInitDict"
+							}
+						},
+						{
+							"id": 199,
+							"name": "#reconnectionTime",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "src/undici/EventSource.ts",
+									"line": 64,
+									"character": 2,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L64"
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "3000"
+						},
+						{
+							"id": 201,
 							"name": "#responseBody",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4342,9 +4548,9 @@
 							"sources": [
 								{
 									"fileName": "src/undici/EventSource.ts",
-									"line": 48,
+									"line": 66,
 									"character": 2,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/undici/EventSource.ts#L48"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L66"
 								}
 							],
 							"type": {
@@ -4355,7 +4561,7 @@
 							}
 						},
 						{
-							"id": 192,
+							"id": 205,
 							"name": "_readyState",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4367,7 +4573,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 60,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L60"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L60"
 								}
 							],
 							"type": {
@@ -4390,7 +4596,7 @@
 							}
 						},
 						{
-							"id": 203,
+							"id": 216,
 							"name": "onerror",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4402,7 +4608,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 68,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L68"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L68"
 								}
 							],
 							"type": {
@@ -4415,7 +4621,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 204,
+											"id": 217,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -4425,19 +4631,19 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 68,
 													"character": 19,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L68"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L68"
 												}
 											],
 											"signatures": [
 												{
-													"id": 205,
+													"id": 218,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 206,
+															"id": 219,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -4467,7 +4673,7 @@
 							}
 						},
 						{
-							"id": 199,
+							"id": 212,
 							"name": "onmessage",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4479,7 +4685,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 67,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L67"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L67"
 								}
 							],
 							"type": {
@@ -4492,7 +4698,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 200,
+											"id": 213,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -4502,19 +4708,19 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 67,
 													"character": 21,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L67"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L67"
 												}
 											],
 											"signatures": [
 												{
-													"id": 201,
+													"id": 214,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 202,
+															"id": 215,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -4544,7 +4750,7 @@
 							}
 						},
 						{
-							"id": 195,
+							"id": 208,
 							"name": "onopen",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4556,7 +4762,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 66,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L66"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L66"
 								}
 							],
 							"type": {
@@ -4569,7 +4775,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 196,
+											"id": 209,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -4579,19 +4785,19 @@
 													"fileName": "src/BaseEventSource.ts",
 													"line": 66,
 													"character": 18,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L66"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L66"
 												}
 											],
 											"signatures": [
 												{
-													"id": 197,
+													"id": 210,
 													"name": "__type",
 													"kind": 4096,
 													"kindString": "Call signature",
 													"flags": {},
 													"parameters": [
 														{
-															"id": 198,
+															"id": 211,
 															"name": "event",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -4621,7 +4827,7 @@
 							}
 						},
 						{
-							"id": 191,
+							"id": 204,
 							"name": "url",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4634,7 +4840,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 54,
 									"character": 18,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L54"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L54"
 								}
 							],
 							"type": {
@@ -4648,7 +4854,7 @@
 							}
 						},
 						{
-							"id": 183,
+							"id": 191,
 							"name": "CLOSED",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4662,7 +4868,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 59,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L59"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L59"
 								}
 							],
 							"type": {
@@ -4678,7 +4884,7 @@
 							}
 						},
 						{
-							"id": 181,
+							"id": 189,
 							"name": "CONNECTING",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4692,7 +4898,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 57,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L57"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L57"
 								}
 							],
 							"type": {
@@ -4708,7 +4914,7 @@
 							}
 						},
 						{
-							"id": 182,
+							"id": 190,
 							"name": "OPEN",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4722,7 +4928,7 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 58,
 									"character": 25,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L58"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L58"
 								}
 							],
 							"type": {
@@ -4738,7 +4944,7 @@
 							}
 						},
 						{
-							"id": 193,
+							"id": 206,
 							"name": "readyState",
 							"kind": 262144,
 							"kindString": "Accessor",
@@ -4750,11 +4956,11 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 61,
 									"character": 13,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L61"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L61"
 								}
 							],
 							"getSignature": {
-								"id": 194,
+								"id": 207,
 								"name": "readyState",
 								"kind": 524288,
 								"kindString": "Get signature",
@@ -4784,7 +4990,7 @@
 							}
 						},
 						{
-							"id": 234,
+							"id": 247,
 							"name": "addEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4793,14 +4999,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
 									"line": 63,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 235,
+									"id": 248,
 									"name": "addEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4929,7 +5135,7 @@
 									},
 									"parameters": [
 										{
-											"id": 236,
+											"id": 249,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4942,7 +5148,7 @@
 											}
 										},
 										{
-											"id": 237,
+											"id": 250,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4968,7 +5174,7 @@
 											}
 										},
 										{
-											"id": 238,
+											"id": 251,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4999,19 +5205,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 95,
+										"id": 98,
 										"name": "BaseEventSource.addEventListener"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 94,
+								"id": 97,
 								"name": "BaseEventSource.addEventListener"
 							}
 						},
 						{
-							"id": 189,
+							"id": 202,
 							"name": "cleaning",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5022,14 +5228,14 @@
 							"sources": [
 								{
 									"fileName": "src/undici/EventSource.ts",
-									"line": 50,
+									"line": 68,
 									"character": 21,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/undici/EventSource.ts#L50"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L68"
 								}
 							],
 							"signatures": [
 								{
-									"id": 190,
+									"id": 203,
 									"name": "cleaning",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5059,19 +5265,19 @@
 									},
 									"overwrites": {
 										"type": "reference",
-										"id": 68,
+										"id": 71,
 										"name": "BaseEventSource.cleaning"
 									}
 								}
 							],
 							"overwrites": {
 								"type": "reference",
-								"id": 67,
+								"id": 70,
 								"name": "BaseEventSource.cleaning"
 							}
 						},
 						{
-							"id": 207,
+							"id": 220,
 							"name": "close",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5083,12 +5289,12 @@
 									"fileName": "src/BaseEventSource.ts",
 									"line": 70,
 									"character": 9,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L70"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L70"
 								}
 							],
 							"signatures": [
 								{
-									"id": 208,
+									"id": 221,
 									"name": "close",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5111,7 +5317,7 @@
 							}
 						},
 						{
-							"id": 239,
+							"id": 252,
 							"name": "dispatchEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5120,14 +5326,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
 									"line": 69,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 240,
+									"id": 253,
 									"name": "dispatchEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5144,7 +5350,7 @@
 									},
 									"parameters": [
 										{
-											"id": 241,
+											"id": 254,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5165,19 +5371,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 100,
+										"id": 103,
 										"name": "BaseEventSource.dispatchEvent"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 99,
+								"id": 102,
 								"name": "BaseEventSource.dispatchEvent"
 							}
 						},
 						{
-							"id": 215,
+							"id": 228,
 							"name": "handleInvalidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5187,14 +5393,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 113,
+									"line": 118,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L113"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L118"
 								}
 							],
 							"signatures": [
 								{
-									"id": 216,
+									"id": 229,
 									"name": "handleInvalidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5215,19 +5421,80 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 76,
+										"id": 79,
 										"name": "BaseEventSource.handleInvalidResponse"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 75,
+								"id": 78,
 								"name": "BaseEventSource.handleInvalidResponse"
 							}
 						},
 						{
-							"id": 228,
+							"id": 196,
+							"name": "init",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "src/undici/EventSource.ts",
+									"line": 25,
+									"character": 12,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L25"
+								}
+							],
+							"signatures": [
+								{
+									"id": 197,
+									"name": "init",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "MUST be implemented by child class"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 198,
+											"name": "url",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 68,
+										"name": "BaseEventSource.init"
+									}
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 67,
+								"name": "BaseEventSource.init"
+							}
+						},
+						{
+							"id": 241,
 							"name": "initStreamAdaptor",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5237,14 +5504,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 182,
+									"line": 185,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L182"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L185"
 								}
 							],
 							"signatures": [
 								{
-									"id": 229,
+									"id": 242,
 									"name": "initStreamAdaptor",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5261,7 +5528,7 @@
 									},
 									"parameters": [
 										{
-											"id": 230,
+											"id": 243,
 											"name": "stream",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5273,7 +5540,7 @@
 											}
 										},
 										{
-											"id": 231,
+											"id": 244,
 											"name": "onErrorCleanUp",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5281,7 +5548,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 232,
+													"id": 245,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -5289,14 +5556,14 @@
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 184,
+															"line": 187,
 															"character": 20,
-															"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L184"
+															"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L187"
 														}
 													],
 													"signatures": [
 														{
-															"id": 233,
+															"id": 246,
 															"name": "__type",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -5317,19 +5584,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 89,
+										"id": 92,
 										"name": "BaseEventSource.initStreamAdaptor"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 88,
+								"id": 91,
 								"name": "BaseEventSource.initStreamAdaptor"
 							}
 						},
 						{
-							"id": 209,
+							"id": 222,
 							"name": "isValidResponse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5339,14 +5606,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 99,
+									"line": 104,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L99"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L104"
 								}
 							],
 							"signatures": [
 								{
-									"id": 210,
+									"id": 223,
 									"name": "isValidResponse",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5363,7 +5630,7 @@
 									},
 									"parameters": [
 										{
-											"id": 211,
+											"id": 224,
 											"name": "response",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5371,14 +5638,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 212,
+													"id": 225,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"children": [
 														{
-															"id": 214,
+															"id": 227,
 															"name": "headers",
 															"kind": 1024,
 															"kindString": "Property",
@@ -5388,9 +5655,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 101,
+																	"line": 106,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L101"
+																	"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L106"
 																}
 															],
 															"type": {
@@ -5401,7 +5668,7 @@
 															}
 														},
 														{
-															"id": 213,
+															"id": 226,
 															"name": "statusCode",
 															"kind": 1024,
 															"kindString": "Property",
@@ -5411,9 +5678,9 @@
 															"sources": [
 																{
 																	"fileName": "src/BaseEventSource.ts",
-																	"line": 100,
+																	"line": 105,
 																	"character": 4,
-																	"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L100"
+																	"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L105"
 																}
 															],
 															"type": {
@@ -5426,17 +5693,17 @@
 														{
 															"title": "Properties",
 															"children": [
-																214,
-																213
+																227,
+																226
 															]
 														}
 													],
 													"sources": [
 														{
 															"fileName": "src/BaseEventSource.ts",
-															"line": 99,
+															"line": 104,
 															"character": 38,
-															"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L99"
+															"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L104"
 														}
 													]
 												}
@@ -5449,19 +5716,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 70,
+										"id": 73,
 										"name": "BaseEventSource.isValidResponse"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 69,
+								"id": 72,
 								"name": "BaseEventSource.isValidResponse"
 							}
 						},
 						{
-							"id": 242,
+							"id": 255,
 							"name": "removeEventListener",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5470,14 +5737,14 @@
 							},
 							"sources": [
 								{
-									"fileName": "node_modules/@types/node/dom-events.d.ts",
+									"fileName": "node_modules/@types/node/ts4.8/dom-events.d.ts",
 									"line": 71,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 243,
+									"id": 256,
 									"name": "removeEventListener",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5494,7 +5761,7 @@
 									},
 									"parameters": [
 										{
-											"id": 244,
+											"id": 257,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5507,7 +5774,7 @@
 											}
 										},
 										{
-											"id": 245,
+											"id": 258,
 											"name": "listener",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5533,7 +5800,7 @@
 											}
 										},
 										{
-											"id": 246,
+											"id": 259,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5564,19 +5831,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 103,
+										"id": 106,
 										"name": "BaseEventSource.removeEventListener"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 102,
+								"id": 105,
 								"name": "BaseEventSource.removeEventListener"
 							}
 						},
 						{
-							"id": 219,
+							"id": 232,
 							"name": "signalError",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5586,14 +5853,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 140,
+									"line": 143,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L140"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L143"
 								}
 							],
 							"signatures": [
 								{
-									"id": 220,
+									"id": 233,
 									"name": "signalError",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5608,7 +5875,7 @@
 									},
 									"parameters": [
 										{
-											"id": 221,
+											"id": 234,
 											"name": "error",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5627,19 +5894,19 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 80,
+										"id": 83,
 										"name": "BaseEventSource.signalError"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 79,
+								"id": 82,
 								"name": "BaseEventSource.signalError"
 							}
 						},
 						{
-							"id": 225,
+							"id": 238,
 							"name": "signalEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5649,14 +5916,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 166,
+									"line": 169,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L166"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L169"
 								}
 							],
 							"signatures": [
 								{
-									"id": 226,
+									"id": 239,
 									"name": "signalEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5671,7 +5938,69 @@
 									},
 									"parameters": [
 										{
-											"id": 227,
+											"id": 240,
+											"name": "_event",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 13,
+												"name": "IEvent"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 89,
+										"name": "BaseEventSource.signalEvent"
+									}
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 88,
+								"name": "BaseEventSource.signalEvent"
+							}
+						},
+						{
+							"id": 235,
+							"name": "signalMessage",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isProtected": true
+							},
+							"sources": [
+								{
+									"fileName": "src/BaseEventSource.ts",
+									"line": 156,
+									"character": 12,
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L156"
+								}
+							],
+							"signatures": [
+								{
+									"id": 236,
+									"name": "signalMessage",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Dispatch a message with an IEvent\nand try to dispatch named event from message event"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 237,
 											"name": "_event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5690,80 +6019,18 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 86,
-										"name": "BaseEventSource.signalEvent"
-									}
-								}
-							],
-							"inheritedFrom": {
-								"type": "reference",
-								"id": 85,
-								"name": "BaseEventSource.signalEvent"
-							}
-						},
-						{
-							"id": 222,
-							"name": "signalMessage",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isProtected": true
-							},
-							"sources": [
-								{
-									"fileName": "src/BaseEventSource.ts",
-									"line": 153,
-									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L153"
-								}
-							],
-							"signatures": [
-								{
-									"id": 223,
-									"name": "signalMessage",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"comment": {
-										"summary": [
-											{
-												"kind": "text",
-												"text": "Dispatch a message with an IEvent\nand try to dispatch named event from message event"
-											}
-										]
-									},
-									"parameters": [
-										{
-											"id": 224,
-											"name": "_event",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "reference",
-												"id": 13,
-												"name": "IEvent"
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									},
-									"inheritedFrom": {
-										"type": "reference",
-										"id": 83,
 										"name": "BaseEventSource.signalMessage"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 82,
+								"id": 85,
 								"name": "BaseEventSource.signalMessage"
 							}
 						},
 						{
-							"id": 217,
+							"id": 230,
 							"name": "signalOpen",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5773,14 +6040,14 @@
 							"sources": [
 								{
 									"fileName": "src/BaseEventSource.ts",
-									"line": 130,
+									"line": 133,
 									"character": 12,
-									"url": "https://github.com/Purexo/EventStream/blob/main/src/BaseEventSource.ts#L130"
+									"url": "https://github.com/sse-js/client-kit/blob/main/src/BaseEventSource.ts#L133"
 								}
 							],
 							"signatures": [
 								{
-									"id": 218,
+									"id": 231,
 									"name": "signalOpen",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5801,14 +6068,14 @@
 									},
 									"inheritedFrom": {
 										"type": "reference",
-										"id": 78,
+										"id": 81,
 										"name": "BaseEventSource.signalOpen"
 									}
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 77,
+								"id": 80,
 								"name": "BaseEventSource.signalOpen"
 							}
 						}
@@ -5817,44 +6084,47 @@
 						{
 							"title": "Constructors",
 							"children": [
-								184
+								192
 							]
 						},
 						{
 							"title": "Properties",
 							"children": [
-								188,
-								192,
-								203,
+								200,
 								199,
-								195,
+								201,
+								205,
+								216,
+								212,
+								208,
+								204,
 								191,
-								183,
-								181,
-								182
+								189,
+								190
 							]
 						},
 						{
 							"title": "Accessors",
 							"children": [
-								193
+								206
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								234,
-								189,
-								207,
-								239,
-								215,
+								247,
+								202,
+								220,
+								252,
 								228,
-								209,
-								242,
-								219,
-								225,
+								196,
+								241,
 								222,
-								217
+								255,
+								232,
+								238,
+								235,
+								230
 							]
 						}
 					],
@@ -5863,7 +6133,7 @@
 							"fileName": "src/undici/EventSource.ts",
 							"line": 18,
 							"character": 13,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/undici/EventSource.ts#L18"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L18"
 						}
 					],
 					"extendedTypes": [
@@ -5875,7 +6145,7 @@
 					]
 				},
 				{
-					"id": 177,
+					"id": 185,
 					"name": "EventSourceInitDict",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -5885,7 +6155,7 @@
 							"fileName": "src/undici/EventSource.ts",
 							"line": 7,
 							"character": 12,
-							"url": "https://github.com/Purexo/EventStream/blob/main/src/undici/EventSource.ts#L7"
+							"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L7"
 						}
 					],
 					"type": {
@@ -5894,14 +6164,14 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 178,
+									"id": 186,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"children": [
 										{
-											"id": 179,
+											"id": 187,
 											"name": "dispatcher",
 											"kind": 1024,
 											"kindString": "Property",
@@ -5913,7 +6183,7 @@
 													"fileName": "src/undici/EventSource.ts",
 													"line": 7,
 													"character": 36,
-													"url": "https://github.com/Purexo/EventStream/blob/main/src/undici/EventSource.ts#L7"
+													"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L7"
 												}
 											],
 											"type": {
@@ -5928,7 +6198,7 @@
 										{
 											"title": "Properties",
 											"children": [
-												179
+												187
 											]
 										}
 									],
@@ -5937,7 +6207,7 @@
 											"fileName": "src/undici/EventSource.ts",
 											"line": 7,
 											"character": 34,
-											"url": "https://github.com/Purexo/EventStream/blob/main/src/undici/EventSource.ts#L7"
+											"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L7"
 										}
 									]
 								}
@@ -6007,13 +6277,13 @@
 				{
 					"title": "Classes",
 					"children": [
-						180
+						188
 					]
 				},
 				{
 					"title": "Type Aliases",
 					"children": [
-						177
+						185
 					]
 				}
 			],
@@ -6022,7 +6292,7 @@
 					"fileName": "src/undici/EventSource.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/Purexo/EventStream/blob/main/src/undici/EventSource.ts#L1"
+					"url": "https://github.com/sse-js/client-kit/blob/main/src/undici/EventSource.ts#L1"
 				}
 			]
 		}
@@ -6031,18 +6301,18 @@
 		{
 			"title": "References",
 			"children": [
-				247,
-				248
+				260,
+				261
 			]
 		},
 		{
 			"title": "Namespaces",
 			"children": [
 				33,
-				107,
+				110,
 				1,
 				28,
-				176
+				184
 			]
 		}
 	],
@@ -6051,7 +6321,7 @@
 			"fileName": "src/index.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/Purexo/EventStream/blob/main/src/index.ts#L1"
+			"url": "https://github.com/sse-js/client-kit/blob/main/src/index.ts#L1"
 		}
 	]
 }

@@ -1,10 +1,10 @@
-# EventStream
+# sse-js/client-kit
 
 Support Parse / Read a `text/event-stream` stream compatible with `EventSource` Server Sent Events.  
 Provide implementations of `EventSource` for Node.js.
 
 - One native (`node:http` / `node:https`) under `Node` namespace
-- One relying on [undici](https://undici.nodejs.org/#/)
+- One relying on [undici](https://undici.nodejs.org/#/) under `Undici` namespace (optional peerDeps)
 
 The idea of this lib is to provide the most compliant spec possible implementation of how to parse `text/event-stream`
 and `EventSource` api.
@@ -22,15 +22,13 @@ and `EventSource` api.
 
 ## How to Install
 
-TOFIX when package name is reserved
-
 ```
-#.npmrc
-@Purexo:registry=https://npm.pkg.github.com/
+#.npmrc (optional, fallback on npm)
+@sse-js:registry=https://npm.pkg.github.com/
 ```
 
 ```
-npm i @Purexo/eventsource
+npm i @sse-js/eventsource
 ```
 
 ## How to Use
@@ -40,11 +38,11 @@ npm i @Purexo/eventsource
 Possibles imports :
 
 ```js
-import { EventSource } from '@Purexo/eventsource';
+import { EventSource } from '@sse-js/client-kit';
 // or
-import { EventSource } from '@Purexo/eventsource/Node';
+import { EventSource } from '@sse-js/client-kit/Node';
 // or
-import { Node } from '@Purexo/eventsource';
+import { Node } from '@sse-js/client-kit';
 
 const { EventSource } = Node;
 ```
@@ -100,9 +98,9 @@ es.message = console.log;
 Possibles imports :
 
 ```js
-import { EventSource } from '@Purexo/eventsource/Undici';
+import { EventSource } from '@sse-js/client-kit/Undici';
 // or
-import { Undici } from '@Purexo/eventsource';
+import { Undici } from '@sse-js/client-kit';
 
 const { EventSource } = Undici;
 ```
@@ -157,11 +155,11 @@ es.message = console.log;
 
 ```js
 // import
-import { eventStreamReader } from '@Purexo/eventsource';
+import { eventStreamReader } from '@sse-js/client-kit';
 // or
-import { eventStreamReader } from '@Purexo/eventsource/Reader';
+import { eventStreamReader } from '@sse-js/client-kit/Reader';
 // or
-import { Reader } from '@Purexo/eventsource';
+import { Reader } from '@sse-js/client-kit';
 
 const { eventStreamReader } = Reader;
 
@@ -202,9 +200,9 @@ for await (const event of eventStreamReader(stream, ac.signal)) {
 
 ```js
 // import
-import { createEventStreamTransform } from '@Purexo/eventsource/Parser';
+import { createEventStreamTransform } from '@sse-js/client-kit/Parser';
 // or
-import { Parser } from '@Purexo/eventsource';
+import { Parser } from '@sse-js/client-kit';
 
 const { createEventStreamTransform } = Parser;
 
@@ -228,9 +226,9 @@ eventStream.on('data', event => {
 
 ```js
 // import
-import { createParser } from '@Purexo/eventsource/Parser';
+import { createParser } from '@sse-js/client-kit/Parser';
 // or
-import { Parser } from '@Purexo/eventsource';
+import { Parser } from '@sse-js/client-kit';
 
 const { createParser } = Parser;
 
